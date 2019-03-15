@@ -21,6 +21,8 @@ TODO: try later: Rails Asset Pipeline
 
 # 4_React_with_RAILS_API
 
+- `items_controller.rb` already has routes for HTML view and JSON returns
+
 # README
 
 This README would normally document whatever steps are necessary to get the
