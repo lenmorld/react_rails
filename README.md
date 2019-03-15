@@ -1,3 +1,15 @@
+# 1_Scaffold
+
+- Rails 5.2
+- postgresql
+- Item scaffold : localhost:4000/items
+
+# 2_serve static HTML
+
+- http://davidpots.com/rails/tutorial/development/2013/03/19/rails-basics-setting-up-a-homepage.html
+- 
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
