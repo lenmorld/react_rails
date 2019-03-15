@@ -1,0 +1,4016 @@
+    1  atom ~/.zshrc
+    2  $ZSH
+    3  exit
+    4  chsh -s $(which zsh)
+    5  echo $0 
+    6  echo $0
+    7  pwd
+    8  source ~/.zhrc
+    9  source ~/.zshrc
+   10  git clone https://github.com/powerline/fonts.git
+   11  cd fonts
+   12  ./install.sh
+   13  cd ~/.oh-my-zsh/themes/
+   14  git checkout  d6a36b1 agnoster.zsh-theme
+   15  history
+   16  cd docker/shotgun
+   17  npm run dev
+   18  cd docker/shotgun
+   19  npm run dev
+   20  vagrant provision
+   21  history > ~/zsg_config_commands
+   22  git branch
+   23  npm run dev
+   24  npm run watch
+   25  cd docker/shotgun
+   26  ls
+   27  vagrant provision
+   28  vagrant up --provision
+   29  cd ~
+   30  mkdir hacktoberfest
+   31  cd hacktoberfest
+   32  ls
+   33  git clone git@github.com:lenmorld/Hacktoberfest2018.git
+   34  git config
+   35  git clone https://github.com/lenmorld/Hacktoberfest2018.git
+   36  cd Hacktoberfest2018
+   37  ls
+   38  cat << EOF >> ~/.bash_profile\nexport PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\nEOF
+   39  cd hacktoberfest
+   40  cd Hacktoberfest2018
+   41  code .
+   42  nano ~/.bash_profile
+   43  source ~/.bash_profile
+   44  code .
+   45  git status
+   46  git add .
+   47  git commit -m ""daily spoken motivation
+   48  git commit -m "daily spoken motivation"
+   49  git push origin master 
+   50  ls
+   51  git status
+   52  touch hahaha
+   53  nano hahaha
+   54  git status
+   55  git branch
+   56  git status
+   57  git add . & git commit -m "haha"
+   58  git status
+   59  git add . & git commit -m "haha"
+   60  git reset hard
+   61  cd ..
+   62  ls
+   63  cd dimanal
+   64  ls
+   65  mkdir git_example
+   66  cd git_example
+   67  git init
+   68  touch a.html
+   69  git add . & git commit -m "commit #1 file"
+   70  rm /Users/dimanal/git_example/.git/index.lock
+   71  cd .git
+   72  ls
+   73  ls -la
+   74  git add .
+   75  cd ../..
+   76  ls
+   77  cd git_example
+   78  git status
+   79  git add .
+   80  git commit -m "a"
+   81  touch b.html
+   82  git add .
+   83  git commit -m "b"
+   84  git log
+   85  git reflog
+   86  touch c.html
+   87  git add .
+   88  git commit -m "c"
+   89  touch d.html
+   90  git add .
+   91  git commit -m "d"
+   92  touch e.html
+   93  git add .
+   94  git commit -m "e"
+   95  git reflog
+   96  git reset --hard 2f1c43c
+   97  git reflog
+   98  ls
+   99  git status
+  100  git log
+  101  touch ll.html
+  102  git status
+  103  git reset --hard 2f1c43c
+  104  git status
+  105  git reset --hard
+  106  git status
+  107  git reset
+  108  git status
+  109  rm ll.html
+  110  git status
+  111  nano a.html
+  112  git status
+  113  git reset --hard
+  114  git status
+  115  nano a.html
+  116  ls
+  117  cd hacktoberfest
+  118  mkdir rnw
+  119  rm -rf rnw
+  120  git clone https://github.com/lenmorld/rnw.git
+  121  ls
+  122  cd rnw
+  123  ls
+  124  code .
+  125  pwd
+  126  git fetch
+  127  git branch
+  128  git checkout c8.0
+  129  git checkout -b c8.2
+  130  git checkout master --
+  131  git checkout master -- .
+  132  git cherry-pick 34cfdcb
+  133  git cherry-pick \nce4cb6a
+  134  git cherry-pick 17bb535
+  135  git cherry-pick 6895a98
+  136  git cherry-pick a149a59
+  137  git log
+  138  cd docker/shotgun
+  139  vagrant provision
+  140  npm run watch
+  141  cd docker/shotgun
+  142  vagrant ssh
+  143  npm run watch
+  144  cp -r public/images/sgds/additional ~/
+  145  npm run watch
+  146  vagrant provision
+  147  npm run watch
+  148  python script/make_icon_image_map.py
+  149  ./bin/generate_sgds_svg_icons.js
+  150  vagrant ssh
+  151  npm install -g @sgds/design-language
+  152  vagrant ssh
+  153  ./bin/generate_sgds_svg_icons.js
+  154  npm install
+  155  npm login --registry https://art-bobcat.autodesk.com:443/artifactory/api/npm/team-shotgun-npm-virtual/ --scope @sgds --always-auth
+  156  npm install -g @sgds/design-language
+  157  ./bin/generate_sgds_svg_icons.js
+  158  npm install --save-dev @sgds/design-language
+  159  ./bin/generate_sgds_svg_icons.js
+  160  npm test
+  161  vagrant ssh
+  162  npm test
+  163  npm install -g jest
+  164  npm test
+  165  npm install --save-dev jest
+  166  npm test
+  167  npm install
+  168  npm test
+  169  cd docker/shotgun
+  170  bin/console
+  171  vagrant provision
+  172  npm run watch
+  173  vagrant provision
+  174  npm run watch
+  175  bin/restart_shotgun
+  176  npm run watch
+  177  bin/restart_shotgun
+  178  cd docker/shotgun
+  179  tail -f /var/log/shotgun/production.log | grep "LENNY"
+  180  tail -f /var/log/shotgun/production.log
+  181  vagrant ssh
+  182  bin/restart_shotgun
+  183  cd .
+  184  cd ..
+  185  cd docker/shotgun
+  186  gem install ruby-debug-ide
+  187  rvm get stable --auto-dotfiles
+  188  which -a ruby
+  189  ruby --version
+  190  gem install debase
+  191  cd ..
+  192  ruby ./app/helpers/application_helper.rb
+  193  cd ..
+  194  ruby ./app/helpers/application_helper.rb
+  195  cd shotgun
+  196  ruby ./app/helpers/application_helper.rb
+  197  bin/restart_shotgun
+  198  cd docker/shotgun
+  199  bin/restart_shotgun
+  200  gem install rubocop
+  201  which ruby
+  202  which .rbenv
+  203  bin/restart_shotgun
+  204  git status
+  205  vagrant provision
+  206  https://www.amazon.com/EYES-PC-Blocking-Protector-Diagonal/dp/B00OL26BVK
+  207  npm run watch
+  208  vagrant provision
+  209  npm run watch
+  210  bin/restart_shotgun
+  211  npm run watch
+  212  vagrant ssh -c "sg_set_fake_smtp"
+  213  vagrant ssh
+  214  cd docker/shotgun
+  215  vagrant ssh --command 'echo $SSH_CONNECTION | sed "s@ .*@@"'
+  216  bin/restart_shotgun
+  217  vagrant ssh -c "sg_set_fake_smtp"
+  218  ls
+  219  mkdir docker3
+  220  cd docker3
+  221  npm run watch
+  222  bin/restart_shotgun
+  223  npm run watch
+  224  bin/restart_shotgun
+  225  script/i18n/shotgun_pt.rb
+  226  bin/restart_shotgun
+  227  npm run watch
+  228  git checkout --track origin/ticket/SG-8975_sgds_login
+  229  vagrant provision
+  230  npm run watch
+  231  vagrant ssh -c "sg_set_fake_smtp"
+  232  script/i18n/shotgun_pt.rb
+  233  bin/restart_shotgun
+  234  script/i18n/shotgun_pt.rb
+  235  bin/restart_shotgun
+  236  ifconfig
+  237  netsh
+  238  ifconfig
+  239  ping 192.168.1.1
+  240  ifconfig
+  241  bin/restart_shotgun
+  242  npm run watch
+  243  vagrant provision
+  244  npm run watch
+  245  vagrant ssh -c "sg_set_fake_smtp"
+  246  npm run watch
+  247  vagrant provision
+  248  npm run watch
+  249  cd docker/shotgun
+  250  bin/console
+  251  vagrant ssh -c "sg_set_fake_smtp"
+  252  npm run watch
+  253  /Applications/RV64.app/Contents/MacOS/py-interp \nwebview.py 'localhost:3000/page/review_app_submit'
+  254  git checkout origin/ticket/sg_9875 -- package.json
+  255  git checkout ticket/SG-8975_sgds_login -- package.json
+  256  git checkout ticket/SG-8975_sgds_login -- package-lock.json
+  257  git checkout master_with_8975 -- package-lock.json
+  258  git checkout master_with_8975 -- package.json
+  259  npm run watch
+  260  git cherry-pick 55426c8
+  261  git cherry-pick 90de076
+  262  git add .
+  263  git status
+  264  git rm .vscode/launch.json
+  265  git add .
+  266  git commit
+  267  git cherry-pick 2b3cfe6
+  268  git add .
+  269  git commit
+  270  git cherry-pick 2089678
+  271  npm run watch
+  272  vagrant provision
+  273  npm run watch
+  274  vagrant ssh -c "sg_set_fake_smtp"
+  275  bin/console
+  276  npm run watch
+  277  bin/restart_shotgun
+  278  bin/console
+  279  bin/restart_shotgun
+  280  npm run watch
+  281  bin/console
+  282  script/i18n/shotgun_pt.rb
+  283  git checkout origin/ticket/SG-8811_theme_dialogs -- src/stylesheets/shotgun.scss
+  284  script/i18n/shotgun_pt.rb
+  285  script/i18n/shotgun_pt.rb -p
+  286  vagrant ssh
+  287  bin/restart_shotgun
+  288  bin/console
+  289  /Applications/RV64.app/Contents/MacOS/rv
+  290  npm run watch
+  291  bin/restart_shotgun
+  292  npm run watch
+  293  vagrant provision
+  294  npm run watch
+  295  bin/console
+  296  ./bin/generate_sgds_svg_icons.js
+  297  vagrant ssh -c "sg_set_fake_smtp"
+  298  git checkout master -- src/stylesheets/common/components/_sgds_patterns.scss
+  299  git checkout master -- src/stylesheets/shotgun.scss
+  300  vagrant provision
+  301  vagrant ssh -c "sg_set_fake_smtp"
+  302  bin/console
+  303  npm run watch
+  304  bin/console
+  305  git cherry-pick 81c6cb6
+  306  npm run watch
+  307  vagrant provision
+  308  vagrant ssh -c "sg_set_fake_smtp"
+  309  npm run watch
+  310  bin/console
+  311  vagrant provision
+  312  vagrant ssh -c "sg_set_fake_smtp"
+  313  npm run watch
+  314  bin/console
+  315  ls
+  316  cd docker3
+  317  ls
+  318  git clone git@github.com:shotgunsoftware/shotgun.git
+  319  git clone https://github.com/shotgunsoftware/shotgun.git
+  320  vagrant provision
+  321  ls
+  322  cd shotgun
+  323  vagrant ssh -c "sg_set_fake_smtp"
+  324  bin/console
+  325  npm run watch
+  326  bin/restart_shotgun
+  327  npm run watch
+  328  vagrant provision
+  329  vagrant ssh -c "sg_set_fake_smtp"
+  330  npm run watch
+  331  docker login quay.io
+  332  vagrant halt
+  333  git update-index --assume-unchanged config/hostname config/memcached.yml
+  334  docker-compose up app
+  335  npm install
+  336  docker-compose up app
+  337  git pull origin master
+  338  git update-index --assume-unchanged config/hostname config/memcached.yml
+  339  docker-compose up app
+  340  docker-compose down -v
+  341  docker-compose up --build app
+  342  vagrant up --provision
+  343  cd docker3/shotgun
+  344  npm run watch
+  345  bin/restart_shotgun
+  346  npm run watch
+  347  vagrant ssh -c "sg_set_fake_smtp"
+  348  history | grep rv
+  349  /Applications/RV64.app/Contents/MacOS/rv
+  350  which webview.py
+  351  locate webview.py
+  352  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+  353  locate webview.py
+  354  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+  355  locate webview.py
+  356  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+  357  locate webview.py
+  358  find . -name '*webview'
+  359   /Users/dimanal/rv/webview.py http://vm.shotgun.local/invite/YqWsuXAOuwLvCLg-iali1A
+  360  /Users/dimanal/rv/webview.py http://vm.shotgun.local/invite/YqWsuXAOuwLvCLg-iali1A
+  361  sudo /Users/dimanal/rv/webview.py http://vm.shotgun.local/invite/YqWsuXAOuwLvCLg-iali1A
+  362  rv/webview.py
+  363  sudo rv/webview.py
+  364  sudo ~/rv/webview.py
+  365  rv/webview.py
+  366  python rv/webview.py
+  367  python2.7 rv/webview.py
+  368  /Applications/RV64.app/Contents/MacOS/py-interp \nwebview.py 'http://localhost:3000'
+  369  /Applications/RV64.app/Contents/MacOS/py-interp/webview.py 'http://localhost:3000'
+  370  /Applications/RV64.app/Contents/MacOS/py-interp webview.py 'http://vm.shotgun.local'
+  371  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://vm.shotgun.local'
+  372  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://vm.shotgun.local/invite/YqWsuXAOuwLvCLg-iali1A'
+  373  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://vm.shotgun.local/user/login'
+  374  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/page/project_overview'
+  375  ç
+  376  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'https://lenny.shotgunstudio.com/usee/login'
+  377  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'https://lenny.shotgunstudio.com/user/login'
+  378  vagrant provision
+  379  npm run watch
+  380  cd ~/rv
+  381  ls
+  382  cd ..
+  383  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'https://lenny.shotgunstudio.com/user/login'
+  384  bin/restart_shotgun
+  385  npm run watch
+  386  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'https://lenny.shotgunstudio.com/user/login'
+  387  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  388  vagrant provision
+  389  history | grep fake
+  390  vagrant ssh -c "sg_set_fake_smtp"
+  391  vagrant ssh
+  392  npm run build
+  393  npm run watch
+  394  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3000/invite/alIGe_ju5oiiLKdSV9R06A'
+  395  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/alIGe_ju5oiiLKdSV9R06A'
+  396  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  397  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/alIGe_ju5oiiLKdSV9R06A'
+  398  bin/restart_shotgun
+  399  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/alIGe_ju5oiiLKdSV9R06A'
+  400  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  401  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3000/invite/GpffiAx81p5uJ8MvFAsRnw'
+  402  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/GpffiAx81p5uJ8MvFAsRnw'
+  403  bin/restart_shotgun
+  404  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  405  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blah'
+  406  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  407  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blah'
+  408  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  409  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3000/invite/S72cwyr4QDZvSoBemnnZeQ'
+  410  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/S72cwyr4QDZvSoBemnnZeQ'
+  411  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blah'
+  412  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  413  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/2YOKFlMZLn00I5vnfH5jlQ'
+  414  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/2YOKFlMZLn00I5vnfH5jlQ?theme=dark'
+  415  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/2YOKFlMZLn00I5vnfH5jlQ'
+  416  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  417  bin/restart_shotgun
+  418  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  419  npm run watch
+  420  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  421  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blahblah'
+  422  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  423  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/2YOKFlMZLn00I5vnfH5jlQ'
+  424  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  425  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blahblah'
+  426  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blahblah?theme=dark'
+  427  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blahblah'
+  428  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blahblah?theme=dark'
+  429  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/blahblah'
+  430  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/EWjOJS3aDpRT0boZJ9BZNA'
+  431  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/EWjOJS3aDpRT0boZJ9BZNA?theme=dark'
+  432  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  433  vagrant provision
+  434  npm run watch
+  435  vagrant provision
+  436  npm run watch
+  437  npm run build
+  438  npm run watch
+  439  vagrant ssh -c "sg_set_fake_smtp"
+  440  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/A5RbZ0yOlKdtPLv8baoFFw'
+  441  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+  442  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/bdmXvpjCJmS2UrRvVPWh4A'
+  443  npm run watch
+  444  vagrant provision
+  445  vagrant up --provision
+  446  cd docker/shotgun
+  447  bin/console
+  448  cd docker/shotgun
+  449  history | grep DuplicateFieldValuesNode
+  450  history | grep logger
+  451  history | grep lenny
+  452  history | grep rails
+  453  history | grep -i rails
+  454  history | grep -i Rails
+  455  history | grep -i log
+  456  tail -f /var/log/shotgun/production.log
+  457  vagrant ssh
+  458  cd docker/shotgun
+  459  vagrant ssh
+  460  bin/restart_shotgun
+  461  npm run watch
+  462  bin/restart_shotgun
+  463  bin/console
+  464  bin/restart_shotgun
+  465  bin/console
+  466  bin/restart_shotgun
+  467  history | grep test
+  468  rake test
+  469  vagrant ssh
+  470  bin/console
+  471  bin/restart_shotgun
+  472  /home/shotgun/.rbenv/versions/2.3.7/bin/ruby -I"lib:test" -I"/home/shotgun/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib" "/home/shotgun/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib/rake/rake_test_loader.rb" "test/functional/page_controller_test.rb.rb"
+  473  /home/shotgun/.rbenv/versions/2.3.7/bin/ruby -I"lib:test" -I"/home/shotgun/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib" "/home/shotgun/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib/rake/rake_test_loader.rb" "test/functional/page_controller_test.rb"
+  474  vagrant ssh
+  475  bin/console
+  476  cd docker/shotgun
+  477  cd docker
+  478  ls
+  479  git clone https://github.com/shotgunsoftware/dev_vm.git
+  480  source boot.sh
+  481  cd dev_vm
+  482  source boot.sh
+  483  cd docker/shotgun
+  484  cd ..
+  485  ls
+  486  cd dev_vm
+  487  source boot.sh
+  488  cd docker
+  489  ls
+  490  cd dev_vm
+  491  source boot.sh
+  492  cd docker
+  493  ls
+  494  cd dev_vm
+  495  ls
+  496  source boot.sh &
+  497  source boot.sh
+  498  vagrant halt
+  499  source boot.sh
+  500  ls
+  501  cd ..
+  502  rm -rf dev_vm
+  503  git clone https://github.com/shotgunsoftware/dev_vm.git
+  504  cd dev_vm
+  505  source boot.sh
+  506  sudo source boot.sh
+  507  source boot.sh
+  508  source clean.sh
+  509  cd docker
+  510  cd dev_vm
+  511  source boot.sh
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd dev_vm
+  516  source boot.sh
+  517  clear
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd dev_vm
+  522  cd ..
+  523  ls
+  524  cd dev_vm
+  525  source boot.sh
+  526  ssh -T git@github.com
+  527  eval "$(ssh-agent -s)"
+  528  ssh-add -l
+  529  ssh-keygen -t rsa
+  530  ssh-add -l
+  531  ssh-add /Users/dimanal/.ssh/id_rsa.
+  532  ssh-add /Users/dimanal/.ssh/id_rsa
+  533  ssh-add -l
+  534  ssh -T git@github.com
+  535  ls -al ~/.ssh
+  536  ssh-keygen -t rsa -b 4096 -C "lenmorld@gmail.com"
+  537  eval "$(ssh-agent -s)"
+  538  nano ~/.ssh/config
+  539  pbcopy < ~/.ssh/id_rsa.pub
+  540  ssh -T git@github.com
+  541  source boot.sh
+  542  cd ..
+  543  ls
+  544  cd dev_vm
+  545  ls
+  546  source boot.sh
+  547  atom boot.sh
+  548  brew cask reinstall vagrant
+  549  source boot2.sh
+  550  cd docker
+  551  ls
+  552  cd dev_vm
+  553  ls
+  554  git branch
+  555  git fetch
+  556  git checkout FETCH_HEAD
+  557  cd ..
+  558  cd shotgun
+  559  cd ..
+  560  cd dev_vm
+  561  git branch
+  562  git checkout master
+  563  git pull origin master
+  564  cd ..
+  565  ls
+  566  cd shotgun
+  567  vagrant provision
+  568  vagrant up --provision
+  569  cd ..
+  570  cd shotgun
+  571  vagrant up --provision
+  572  vagrant reload
+  573  vagrant up --reload
+  574  vagrant halt
+  575  vagrant up --provision
+  576  vagrant ssh -c sg_stop_shotgun
+  577  vagrant halt --force && vagrant up
+  578  nano Vagrantfile
+  579  nano /etc/hosts
+  580  sudo nano /etc/hosts
+  581  vagrant halt --force && vagrant up
+  582  sudo nano /etc/hosts
+  583  vagrant halt --force && vagrant up
+  584  vagrant provisio
+  585  cd ..
+  586  cd dev_vm
+  587  vagrant provision
+  588  cd Desktop
+  589  cd ..
+  590  cd docker
+  591  cd dev_vm
+  592  ls
+  593  ls -la
+  594  vagrant up --provision
+  595  vagrant ssh
+  596  vagrant up
+  597  vagrant ssh
+  598  cd ../shotgun
+  599  cat .ruby-version
+  600  git checout .ruby-version
+  601  git checkout .ruby-version
+  602  cat .ruby-version
+  603  cd ..
+  604  cd ../dev_vm
+  605  cd dev_vm
+  606  source boot.ash
+  607  source boot.sh
+  608  source boot2.sh
+  609  nano /etc/hosts
+  610  sudo nano /etc/hosts
+  611  cd ../shotgun
+  612  vagrant ssh
+  613  cd docker/shotgun
+  614  ls
+  615  vagrant up
+  616  nano /etc/hosts
+  617  vagrant provision
+  618  sudo nano /etc/hosts
+  619  git stash
+  620  git checkout master
+  621  git pull origin master
+  622  vagrant provision
+  623  sudo lsof -i tcp:3000 
+  624  cd ../shotgun
+  625  sudo nano /etc/hosts
+  626  ping vm.shotgun.local
+  627  sudo nano /etc/hosts
+  628  source /etc/hosts
+  629  bin/restart_shotgun
+  630  npm run watch
+  631  npm rebuild node-sass --force
+  632  npm run watch
+  633  /home/shotgun/.rbenv/versions/2.3.7/bin/ruby -I"lib:test" -I"/home/shotgun/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib" "/home/shotgun/.rbenv/versions/2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib/rake/rake_test_loader.rb" "test/functional/page_controller_test.rb.rb"
+  634  vagrant ssh
+  635  bin/console
+  636  bin/restart_shotgun
+  637  npm run watch
+  638  bin/restart_shotgun
+  639  bin/console
+  640  bin/restart_shotgun
+  641  bin/console
+  642  bin/restart_shotgun
+  643  vagrant ssh
+  644  source /etc/hosts
+  645  sudo atom /etc/hosts
+  646  npm run watch
+  647  bin/console
+  648  bin/restart_shotgun
+  649  bin/console
+  650  bin/restart_shotgun
+  651  vagrant provision
+  652  npm run watch
+  653  npm run dev
+  654  cd docker/shotgun
+  655  npm run watch
+  656  history | grep i18n
+  657  script/i18n/shotgun_pt.rb
+  658  git checkout --track origin/ticket/SG-9453_learning_panel_layout
+  659  npm run watch
+  660  npm run dev
+  661  bin/restart_shotgun
+  662  npm run dev
+  663  npm run watch
+  664  git checkout --track origin/ticket/SG-9453_learning_panel_layout
+  665  git revert --no-commit 5bade6a
+  666  git add .
+  667  git commit
+  668  git cherry-pick 8d1910d
+  669  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- *
+  670  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- .
+  671  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- \*.jsx
+  672  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- \*.scss
+  673  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- *.scss
+  674  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- "*.scss"
+  675  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- .scss
+  676  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- public/javascripts/components/Cards/CardList.jsx
+  677  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- public/javascripts/components/Cards/IconTextCard.jsx
+  678  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- public/javascripts/components/nsx/NSXHome.jsx
+  679  git checkout ticket/SG-9533_learning_panel_card_based_list_and_item -- public/javascripts/components/nsx/styles.js
+  680  bin/restart_shotgun
+  681  npm run watch
+  682  npm run dev
+  683  history | grep i18n
+  684  script/i18n/shotgun_pt.rb -p
+  685  vagrant ssh
+  686  script/i18n/shotgun_pt.rb
+  687  bin/restart_shotgun
+  688  bin/console
+  689  bin/restart_shotgun
+  690  npm run watch
+  691  npm run dev
+  692  script/i18n/shotgun_pt.rb
+  693  curl https://shotgunsoftware.zendesk.com/api/v2/search.json -H "Authorization: Bearer x75gytILn8LOsPsshxdmuh2NfGfsoaEK6u88ePmLy8"
+  694  history | grep zendesk
+  695  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/articles.json\?query\=assets -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  696  https://shotgunsoftware.zendesk.com/api/v2/search.json -H "Authorization: Bearer x75gytILn8LOsPsshxdmuh2NfGfsoaEK6u88ePmLy8"
+  697  surl https://shotgunsoftware.zendesk.com/api/v2/search.json -H "Authorization: Bearer x75gytILn8LOsPsshxdmuh2NfGfsoaEK6u88ePmLy8"
+  698  curl https://shotgunsoftware.zendesk.com/api/v2/search.json -H "Authorization: Bearer x75gytILn8LOsPsshxdmuh2NfGfsoaEK6u88ePmLy8"
+  699  curl https://support.shotgunsoftware.zendesk.com/api/v2/search.json -H "Authorization: Bearer x75gytILn8LOsPsshxdmuh2NfGfsoaEK6u88ePmLy8"
+  700  curl https://shotgunsoftware.zendesk.com/api/v2/search.json -H "Authorization: Bearer cGF0cmljay5ib3VjaGVyQGF1dG9kZXNrLmNvbS90b2tlbjp4NzVneXRJTG44TE9zUGh4ZG11aDJOZkdmc29hRUs2dTg4ZVBtTHk4"
+  701  curl https://support.shotgunsoftware.zendesk.com/api/v2/search.json -H "Authorization: Bearer x75gytILn8LOsPsshxdmuh2NfGfsoaEK6u88ePmLy8"
+  702  curl https://shotgunsoftware.zendesk.com/api/v2/search.json -H "Authorization: Bearer x75gytILn8LOsPsshxdmuh2NfGfsoaEK6u88ePmLy8"
+  703  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/articles.json\?query\=assets -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  704  curl "https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/articles/360006143934-22-June-2018-Released-v1-6-2-of-engine-tk-photoshopcc.json" -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  705  git checkout origin/ticket/SG-9453_learning_panel_layout
+  706  git checkout --track origin/ticket/SG-9453_learning_panel_layout
+  707  bin/restart_shotgun
+  708  npm run dev
+  709  npm run watch
+  710  npm run dev
+  711  git stash
+  712  bin/restart_shotgun
+  713  npm run dev
+  714  npm run watch
+  715  bin/restart_shotgun
+  716  npm run watch
+  717  npm run dev
+  718  vagrant provision
+  719  npm run watch
+  720  npm run dev
+  721  bin/restart_shotgun
+  722  npm run watch
+  723  bin/restart_shotgun
+  724  curl "https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/articles/360006143934-22-June-2018-Released-v1-6-2-of-engine-tk-photoshopcc.json" -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8ƒ
+  725  curl "https://shotgunsoftware.zendesk.com/api/v2/categories.json" -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8ƒ
+  726  curl "https://shotgunsoftware.zendesk.com/api/v2/categories.json" -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  727  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/articles.json\?query\=assets -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  728  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/categories.json -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  729  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/categories/202726378-Shotgun-User-Guide.json -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  730  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/categories/sections.json -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  731  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/categories/202726378/sections.json -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  732  bin/restart_shotgun
+  733  npm run dev
+  734  npm run watch
+  735  bin/restart_shotgun
+  736  curl -X http://localhost:3001/nsx_learning_sample
+  737  curl http://localhost:3001/nsx_learning_sample
+  738  curl -X POST http://localhost:3001/nsx_learning_sample
+  739  curl -X POST http://localhost:3001/nsx_learning/sample
+  740  curl -X POST http://localhost:3001/nsx_learning/get_zendesk_article
+  741  git checkout --track origin/release/8.0.0.0
+  742  git checkout -b ticket/test_NSX
+  743  vagrant provision
+  744  cat /etc/hosts
+  745  bin/restart_shotgun
+  746  npm run watch
+  747  vagrant ssh
+  748  nano /etc/hosts
+  749  npm run watch
+  750  npm run dev
+  751  npm run watch
+  752  bin/restart_shotgun
+  753  nano /etc/hosts
+  754  vagrant provision
+  755  ping localhost
+  756  nano /etc/hosts
+  757  sudo nano /etc/hosts
+  758  vagrant provision
+  759  cd ..
+  760  ls
+  761  cd dev_vm
+  762  git pull origin master
+  763  vagrant soft_nuke
+  764  source boot.sh
+  765  ls
+  766  cd docker3
+  767  ls
+  768  cd shotgun
+  769  git pull origin master
+  770  git stash
+  771  git pull origin master
+  772  direnv allow
+  773  git pull origin master
+  774  docker-compose up app
+  775  vagrant halt
+  776  docker-compose up app
+  777  git pull origin master
+  778  docker login quay.io
+  779  git update-index --assume-unchanged config/hostname config/memcached.yml
+  780  docker-compose up app
+  781  gem install yard
+  782  docker-compose up app
+  783  docker-compose down -v
+  784  docker-compose up app
+  785  docker-compose down -v
+  786  yard
+  787  gem install redcarpet
+  788  yard
+  789  docker-compose down -v
+  790  docker-compose up app
+  791  ls
+  792  cd ..
+  793  ls
+  794  rm -rf shotgun
+  795  cd shotgun
+  796  docker-compose down -v
+  797  cd ..
+  798  rm -rf shotgun
+  799  cd ..
+  800  mkdir docker4
+  801  cd docker4
+  802  git clone https://github.com/shotgunsoftware/shotgun.git
+  803  source boot.sh
+  804  nano boot.sh
+  805  atom boot.sh
+  806  source boot.sh
+  807  docker login quay.io
+  808  git update-index --assume-unchanged config/hostname config/memcached.yml
+  809  cd shotgun
+  810  direnv allow
+  811  git update-index --assume-unchanged config/hostname config/memcached.yml
+  812  docker-compose up app
+  813  docker-compose down -v
+  814  docker-compose up app
+  815  nano /docker-entrypoint.d/init_services_yml.sh
+  816  atom
+  817  docker-compose up app
+  818  git pull origin master
+  819  ls
+  820  docker-compose down -v
+  821  docker-compose up --build app
+  822  docker-compose down -v
+  823  docker-compose up --build app
+  824  git fetch
+  825  git checkout --track origin/ticket/SG-9581_learning_topics_TOC_cards
+  826  git pull origin ticket/SG-9581_learning_topics_TOC_cards
+  827  docker-compose down -v
+  828  docker-compose up --build app
+  829  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  830  cd docker4/shotgun
+  831  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  832  cd docker4/shotgun
+  833  npm run dev
+  834  docker-compose run --rm app bash
+  835  docker-compose run --rm --entrypoint bash app
+  836  cd docker4/shotgun
+  837  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  838  docker-compose logs -f
+  839  docker-compose logs -f | grep LENNY
+  840  docker-compose logs -f app | grep LENNY
+  841  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  842  docker-compose logs -f app | grep LENNY
+  843  docker-compose logs -f --tail=20 app | grep LENNY
+  844  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/categories/202726378/sections/204245528 -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  845  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/categories/202726378/sections/202726378 -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  846  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/sections/202726378/articles.json -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  847  curl https://shotgunsoftware.zendesk.com/api/v2/help_center/en-us/sections/204245528/articles.json -u patrick.boucher@autodesk.com/token:x75gytILn8LOsPhxdmuh2NfGfsoaEK6u88ePmLy8
+  848  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  849  docker-compose logs -f --tail=20 app | grep LENNY
+  850  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  851  docker-compose restart app
+  852  docker-compose logs -f --tail=20 app | grep LENNY
+  853  docker-compose kill app
+  854  docker-compose up --build app
+  855  docker-compose logs -f --tail=20 app | grep LENNY
+  856  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  857  docker-compose logs -f --tail=20 app | grep LENNY
+  858  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  859  cd docker4/shotgun/
+  860  git revert e9fa50fec9c18d6ec7b5b4abfba1ce5ab49097fb
+  861  cd docker4/shotgun
+  862  docker-compose run --rm app bash
+  863  npm run watch
+  864  npm install gulp
+  865  npm run watch
+  866  docker-compose run --rm app bash
+  867  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  868  npm run build_css
+  869  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  870  docker-compose logs -f --tail=20 app | grep LENNY
+  871  docker-compose restart app
+  872  docker-compose logs -f --tail=20 app | grep LENNY
+  873  npm run build_css
+  874  npm run watch
+  875  docker-compose restart app
+  876  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+  877  docker-compose up --build app
+  878  docker-compose down -v
+  879  git pull origin master
+  880  source boot.sh
+  881  cd ..
+  882  ls
+  883  cd shotgun
+  884  git stash
+  885  git checkout master
+  886  git pull origin master
+  887  direnv allow
+  888  git pull origin master
+  889  git checkout -b track/app_cues
+  890  git checkout master
+  891  git checkout -b ticket/SG-9580_spike_app_cues
+  892  vagrant provision
+  893  bin/restart_shotgun
+  894  npm run dev
+  895  npm run watch
+  896  cd docker/shotgun
+  897  vagrant up --provision
+  898  npm run watch
+  899  npm run dev
+  900  npm run watch
+  901  ping http://vm.shotgun.local
+  902  bin/restart_shotgun
+  903  npm run watch
+  904  bin/restart_shotgun
+  905  vagrant up --provision
+  906  vagrant halt
+  907  vagrant up --provision
+  908  vagrant halt --force && vagrant up
+  909  history | grep down
+  910  docker-compose down -v
+  911  netstat
+  912  netstat | grep 8000
+  913  vagrant halt --force && vagrant up
+  914  bin/restart_shotgun
+  915  npm run watch
+  916  npm run dev
+  917  vagrant provision
+  918  vagrant soft_nuke
+  919  exit
+  920  cd docker
+  921  cd dev_vm
+  922  git pull origin master
+  923  vagrant soft_nuke
+  924  source boot.sh
+  925  ls
+  926  cd ../shotgun
+  927  npm run watch
+  928  npm run dev
+  929  bin/restart_shotgun
+  930  npm run watch
+  931  webpack --watch
+  932  vagrant ssh
+  933  bin/restart_shotgun
+  934  vagrant up --provision
+  935  npm run watch
+  936  npm run dev
+  937  vagrant up --provision
+  938  vagrant halt --force && vagrant up
+  939  sudo lsof -i tcp:8000 
+  940  lsof -i tcp:8000 
+  941  kill 6708
+  942  lsof -i tcp:8000 
+  943  vagrant halt --force && vagrant up
+  944  sudo nano /etc/hosts
+  945  vagrant up
+  946  sudo nano /etc/hosts
+  947  vagrant up
+  948  vagrant provision
+  949  ping localhost
+  950  ping vm.shotgun.local
+  951  ping 10.11.12.13
+  952  npm run watch
+  953  npm run dev
+  954  bin/restart_shotgun
+  955  npm run watch
+  956  npm run dev
+  957  bin/restart_shotgun
+  958  bin/console
+  959  ls
+  960  bin/console
+  961  vagrant ssh
+  962  vagrant up
+  963  bin/console
+  964  vagrant provision
+  965  vagrant up --provision
+  966  history | bash net
+  967  history | bash netstat
+  968  history | grep netstat
+  969  netstat | grep 8000
+  970  netstat | grep 3000
+  971  sudo lsof -i tcp:3000 
+  972  kill 16912
+  973  sudo lsof -i tcp:3000 
+  974  vagrant up --provision
+  975  bin/restart_shotgun
+  976  bin/console
+  977  npm run watch
+  978  npm run dev
+  979  vagrant provision
+  980  sudo nano /etc/hosts
+  981  sudo lsof -i tcp:3000 
+  982  vagrant halt --force && vagrant up
+  983  vagrant up
+  984  bundle update
+  985  vagrant ssh
+  986  vagrant up
+  987  bundle update --force
+  988  gem install bundler
+  989  gem update bundler 
+  990  cd docker/shotgun
+  991  vagrant up
+  992  gem install bundler
+  993  vagrant halt --force && vagrant up
+  994  cd ..
+  995  cd dev_vm
+  996  git pull origin master
+  997  vagrant soft_nuke
+  998  sudo lsof -i tcp:3000 
+  999  Running triggers after up
+ 1000  gem install rubygems-update
+ 1001  update_rubygems
+ 1002  gem update --system
+ 1003  cd ../shotgun
+ 1004  vagrant up
+ 1005  vagrant plugin uninstall vagrant-triggers
+ 1006  vagrant up
+ 1007  vagrant --force halt
+ 1008  vagrant up
+ 1009  vagrant reload --provision
+ 1010  sudo lsof -i tcp:3000 
+ 1011  lsof -i tcp:3000 
+ 1012  ping vm.shotgun.local
+ 1013  tail /var/log/httpd/error_log
+ 1014  vagrant ssh
+ 1015  npm run watch
+ 1016  npm run dev
+ 1017  bin/restart_shotgun
+ 1018  vagrant ssh
+ 1019  ping 127.0.0.1
+ 1020  ping locahost:3001
+ 1021  ping locahost:80
+ 1022  ping locahost
+ 1023  ping vm.shotgun.local
+ 1024  vagrant halt --force
+ 1025  lsof -i tcp:3000 
+ 1026  lsof -i tcp:3001
+ 1027  kill 548
+ 1028  lsof -i tcp:3001
+ 1029  lsof -i tcp:3000
+ 1030  vagrant halt --force
+ 1031  vagrant destroy && vagrant provision
+ 1032  vagrant up
+ 1033  nano /etc/hosts
+ 1034  vagrant halt --force
+ 1035  lsof -i 3000
+ 1036  lsof -i tcp:8000 
+ 1037  lsof -i tcp:3000 
+ 1038  lsof -i tcp:3001 
+ 1039  git checkout master
+ 1040  git pull origin master
+ 1041  git stash
+ 1042  git pull origin master
+ 1043  git checkout -b ticket/SG-9580_spike_app_cues
+ 1044  docker-compose kill app
+ 1045  docker-compose up --build app
+ 1046  docker-compose exec app npm run watch
+ 1047  cd docker4/shotgun
+ 1048  docker-compose exec app npm run dev
+ 1049  docker-compose run --rm app bash
+ 1050  docker-compose exec app bin/console
+ 1051  docker-compose run --rm app bash
+ 1052  docker-compose exec app /docker-entrypoint.sh bash
+ 1053  docker-compose run --rm --entrypoint bash app
+ 1054  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1055  docker-compose exec app npm run watch
+ 1056  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1057  npm run dev
+ 1058  docker-compose exec app npm run watch
+ 1059  docker-compose exec app npm run dev
+ 1060  docker-compose exec app npm run watch
+ 1061  npm rebuild node-sass --force
+ 1062  docker-compose exec app npm run watch
+ 1063  git checkout -b ticket/SG-9915_row_formatting_colors
+ 1064  docker-compose restart app
+ 1065  docker-compose kill app
+ 1066  docker-compose up --build app
+ 1067  docker-compose exec app npm run watch
+ 1068  docker-compose exec app npm run dev
+ 1069  docker-compose exec app npm run watch
+ 1070  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1071  npm run watch
+ 1072  docker-compose exec app npm run watch
+ 1073  docker-compose exec app npm run dev
+ 1074  docker-compose run --rm --entrypoint bash app
+ 1075  docker-compose exec app npm run watch --no-open
+ 1076  docker-compose down -v
+ 1077  docker-compose up --build app
+ 1078  docker-compose exec app npm run watch
+ 1079  docker-compose exec app npm run dev
+ 1080  history | grep passenger
+ 1081  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1082  docker-compose exec app npm run dev
+ 1083  docker-compose exec app npm run watch
+ 1084  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1085  git checkout --track origin/release/8.0.1.0
+ 1086  git cherry-pick 8b4bb7b34eff5b0ee52ca88664ec0f0268488a9a
+ 1087  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1088  git cherry-pick 8b4bb7b34eff5b0ee52ca88664ec0f0268488a9a
+ 1089  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1090  git status
+ 1091  cd docker4/shotgun
+ 1092  docker-compose exec app /docker-entrypoint.sh bash\n./node_modules/.bin/karma start test/javascript/classic/karma.conf.js --auto-watch
+ 1093  cd docker4/shotgun
+ 1094  npm test
+ 1095  npm testtest/javascript/classic/utilCellFormattingHelperSpec.js
+ 1096  npm test test/javascript/classic/utilCellFormattingHelperSpec.js
+ 1097  utilCellFormattingHelperSpec.js
+ 1098  npm test test/javascript/classic/utilCellFormattingHelperSpec.js
+ 1099  docker-compose exec app npm test
+ 1100  utilCellFormattingHelperSpec.js 
+ 1101  docker-compose exec app npm test test/javascript/classic/utilCellFormattingHelperSpec.js
+ 1102  npm install karma -g
+ 1103  karma
+ 1104  npm install -g karma-cli
+ 1105  karma
+ 1106  kama
+ 1107  karma
+ 1108  karmastart
+ 1109  npm install -g karma-cli
+ 1110  karma
+ 1111  ./node_modules/karma/bin/karma start
+ 1112  cd docker4/shotgun
+ 1113  ./node_modules/karma/bin/karma test/javascript/classic/utilCellFormattingHelperSpec.js
+ 1114  karma
+ 1115  ./node_modules/karma/bin/karma -- --grep=utilCellFormattingHelperSpec.js
+ 1116  ./node_modules/karma/bin/karma run
+ 1117  npm run test:auto
+ 1118  npm run test
+ 1119  docker-compose exec app /docker-entrypoint.sh bash\n./node_modules/.bin/karma start test/javascript/classic/karma.conf.js --auto-watch
+ 1120  ./node_modules/karma/bin/karma test/javascript/classic/utilCellFormattingHelperSpec.js
+ 1121  npm install karma -g
+ 1122  karma
+ 1123  karma-cli
+ 1124  npm install karma-cli -g
+ 1125  karma-cli
+ 1126  karma --v
+ 1127  npm install karma -g
+ 1128  npm rebuild
+ 1129  npm audit -g
+ 1130  npx
+ 1131  npx karma --auto-watch
+ 1132  docker-compose exec app /docker-entrypoint.sh bash\n./node_modules/.bin/karma start test/javascript/classic/karma.conf.js --auto-watch
+ 1133  npx karma --auto-watch ./test/javascript/classic/utilCellFormattingHelperSpec.js
+ 1134  npx karma --auto-watch run ./test/javascript/classic/utilCellFormattingHelperSpec.js
+ 1135  npx karma --auto-watch start
+ 1136  npx karma start --auto-watch
+ 1137  npm test --watch
+ 1138  npx karma start test/javascript/classic/karma.conf.js --auto-watch
+ 1139  npm test --watch
+ 1140  npx karma start --auto-watch
+ 1141  docker-compose exec app /docker-entrypoint.sh bash\n./node_modules/.bin/karma start test/javascript/classic/karma.conf.js --auto-watch
+ 1142  npm test --watch
+ 1143  import './util/cell_formatting_helper';
+ 1144  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1145  docker-compose exec app npm run dev
+ 1146  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1147  docker-compose exec app npm run dev
+ 1148  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1149  docker-compose exec app npm install
+ 1150  npx jest 
+ 1151  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1152  docker-compose exec app npm run dev
+ 1153  docker-compose exec app npm run watch
+ 1154  docker-compose down -v 
+ 1155  docker-compose up --build app
+ 1156  docker-compose exec app npm run dev
+ 1157  docker-compose exec app npm run watch
+ 1158  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1159  npx jest 
+ 1160  npm test
+ 1161  lsof -i 3000
+ 1162  docker-compose down -v 
+ 1163  docker-compose up --build app
+ 1164  docker-compose down -v 
+ 1165  docker-compose up --build app
+ 1166  docker-compose down -v 
+ 1167  docker-compose kill app
+ 1168  docker-compose up --build app
+ 1169  docker-compose down -v 
+ 1170  docker-compose kill app
+ 1171  docker-compose up --build app
+ 1172  docker-compose down -v 
+ 1173  docker-compose kill app
+ 1174  docker-compose down -v 
+ 1175  docker-compose kill app
+ 1176  docker-compose up --build app
+ 1177  docker-compose exec app npm run dev
+ 1178  docker-compose exec app npm run watch
+ 1179  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1180  docker-compose exec app npm rebuild node-sass --force
+ 1181  docker-compose down -v 
+ 1182  docker-compose up --build app
+ 1183  docker-compose exec app npm run watch
+ 1184  docker-compose exec app npm run dev
+ 1185  docker-compose down -v 
+ 1186  docker-compose up --build app
+ 1187  docker-compose exec app npm run watch
+ 1188  docker-compose exec app npm run dev
+ 1189  docker-compose down -v 
+ 1190  docker-compose up --build app
+ 1191  docker-compose exec app npm run watch
+ 1192  docker-compose exec app npm run dev
+ 1193  git checkout --track origin/ticket/SG-2270_uniqueness_not_apply_on_retired
+ 1194  docker-compose down -v 
+ 1195  cd ..
+ 1196  cd shotgun
+ 1197  cd ..
+ 1198  ls
+ 1199  cd dev_vm
+ 1200  git pull origin master
+ 1201  vagrant soft_nuke
+ 1202  vagrant ssh
+ 1203  source boot.sh
+ 1204  cat /etc/hosts
+ 1205  ping vm.shotgun.local
+ 1206  /Users/dimanal/docker/dev_vm/bin/check_local_shotgun_site
+ 1207  ping -q -c 1 vm.shotgun.local
+ 1208  curl --silent --output /dev/null http://vm.shotgun.local
+ 1209  ping http://vm.shotgun.local
+ 1210  ping vm.shotgun.local
+ 1211  cat /etc/hosts
+ 1212  sudo gedit /etc/hosts
+ 1213  sudo nano /etc/hosts
+ 1214  cat /etc/hosts
+ 1215  ping http://vm.shotgun.local
+ 1216  lsof -i tcp:80
+ 1217  ping http://vm.shotgun.local
+ 1218  curl --silent --output /dev/null http://vm.shotgun.local
+ 1219  curl --silent --output /dev/null http://vm.shotgun.locals
+ 1220  curl --silent --output /dev/null http://vm.shotgun.local
+ 1221  sudo nano /etc/hosts
+ 1222  curl --silent --output /dev/null http://vm.shotgun.local
+ 1223  sudo nano /etc/hosts
+ 1224  curl --silent --output /dev/null http://vm.shotgun.local
+ 1225  cd ../shotgun
+ 1226  vagrant provision
+ 1227  rake test
+ 1228  vagrant ssh
+ 1229  history | grep .rbenv
+ 1230  vagrant ssh
+ 1231  /opt/ruby-2.3.7/bin/ruby -I"lib:test" -I"/opt/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib" "/opt/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib/rake/rake_test_loader.rb" "test/functional/id_query_nodes_test.rb"
+ 1232  vagrant ssh
+ 1233  cd docker/shotgun
+ 1234  bin/console
+ 1235  bin/restart_shotgun
+ 1236  bin/console
+ 1237  bin/restart_shotgun
+ 1238  bin/console test
+ 1239  rake
+ 1240  vagrant ssh
+ 1241  /opt/ruby-2.3.7/bin/ruby -I"lib:test" -I"/opt/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib" "/opt/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib/rake/rake_test_loader.rb" "test/functional/id_query_nodes_test.rb"
+ 1242  vagrant ssh
+ 1243  cd docker/shotgun
+ 1244  bin/console
+ 1245  cd docker/shotgun
+ 1246  vagrant ssh
+ 1247  bin/restart_shotgun
+ 1248  vagrant provision
+ 1249  vagrant ssh -c sg_stop_shotgun
+ 1250  bin/drop_database ticket_sg-2270
+ 1251  bin/drop_database ticket_sg-2270_uniqueness
+ 1252  bin/drop_database ticket_SG-2270_uniqueness_not_apply_on_retired
+ 1253  git checkout -b test_haha
+ 1254  vagrant provision
+ 1255  bin/console
+ 1256  bin/restart_shotgun
+ 1257  history | grep LENNY
+ 1258  tail -f /var/log/shotgun/production.log | grep "LENNY"
+ 1259  vagrant ssh
+ 1260  bin/restart_shotgun
+ 1261  vagrant ssh
+ 1262  bin/restart_shotgun
+ 1263  npm run watch
+ 1264  npm run dev
+ 1265  vagrant up --provision
+ 1266  vagrant halt --force
+ 1267  vagrant halt --force && vagrant up
+ 1268  history | grep lsof
+ 1269  lsof -i tcp:8000
+ 1270  lsof -i tcp:3000
+ 1271  kill 22053
+ 1272  lsof -i tcp:3000
+ 1273  lsof -i tcp:8000
+ 1274  vagrant halt --force && vagrant up
+ 1275  vagrant reload --provision
+ 1276  npm run watch
+ 1277  npm run dev
+ 1278  bin/restart_shotgun
+ 1279  npm run watch
+ 1280  bin/restart_shotgun
+ 1281  npm run watch
+ 1282  npm run dev
+ 1283  bin/console
+ 1284  vagrant up
+ 1285  lsof -i tcp:3000
+ 1286  lsof -i tcp:8000
+ 1287  kill 50673
+ 1288  vagrant halt --force
+ 1289  vagrant up --provision
+ 1290  vagrant halt --force && vagrant up
+ 1291  vagrant uninstall vagrant-triggers
+ 1292  vagrant plugin uninstall vagrant-triggers
+ 1293  vagrant up --provision
+ 1294  npm run watch
+ 1295  npm run dev
+ 1296  npm run watch
+ 1297  bin/console
+ 1298  bin/restart_shotgun
+ 1299  vagrant ssh
+ 1300  bin/restart_shotgun
+ 1301  vagrant ssh
+ 1302  bin/restart_shotgun
+ 1303  vagrant ssh
+ 1304  bin/restart_shotgun
+ 1305  vagrant ssh
+ 1306  bin/restart_shotgun
+ 1307  vagrant ssh
+ 1308  bin/restart_shotgun
+ 1309  vagrant ssh
+ 1310  cd docker/shotgun
+ 1311  bin/console
+ 1312  vagrant ssh
+ 1313  gem install rufo
+ 1314  vagrant ssh
+ 1315  bin/restart_shotgun
+ 1316  vagrant plugin uninstall vagrant-triggers
+ 1317  vagrant halt --force && vagrant up
+ 1318  history | grep lsof
+ 1319  lsof -i tcp:8000
+ 1320  lsof -i tcp:3000
+ 1321  kill 59306
+ 1322  vagrant halt --force && vagrant up
+ 1323  vagrant reload --provision
+ 1324  npm run watch
+ 1325  npm run dev
+ 1326  bin/restart_shotgun
+ 1327  cat /etc/hosts
+ 1328  lsof -i tcp:8000
+ 1329  lsof -i tcp:3000
+ 1330  kill 77348
+ 1331  vagrant halt --force && vagrant up
+ 1332  sudo nano /etc/hosts
+ 1333  vagrant up
+ 1334  cat /etc/hosts
+ 1335  cd docker/shotgun
+ 1336  vagrant halt --force && vagrant up && vagrant reload --provision
+ 1337  sudo nano /etc/hosts
+ 1338  bin/restart_shotgun
+ 1339  history | grep vagrant
+ 1340  npm run watch
+ 1341  npm run dev
+ 1342  bin/restart_shotgun
+ 1343  history | grep 3000
+ 1344  lsof -i tcp:3000
+ 1345  lsof -i tcp:8000
+ 1346  kill 79367
+ 1347  kill 79637
+ 1348  vagrant plugin uninstall vagrant-triggers
+ 1349  vagrant halt --force && vagrant up && vagrant reload --provision
+ 1350  sudo cat /etc/hosts
+ 1351  cat /etc/hosts
+ 1352  sudo nano /etc/hosts
+ 1353  vagrant reload --provision
+ 1354  npm run watch
+ 1355  npm run dev
+ 1356  sudo nano /etc/hosts
+ 1357  vagrant ssh
+ 1358  brew cask install licecap
+ 1359  clear
+ 1360  npm run watch
+ 1361  npm run dev
+ 1362  sudo nano /etc/hosts
+ 1363  bin/console
+ 1364  psql
+ 1365  vagrant ssh
+ 1366  bin/console
+ 1367  bin/restart_shotgun
+ 1368  npm run watch
+ 1369  lsof -i tcp:3000
+ 1370  vagrant halt --force && vagrant up && vagrant reload --provision
+ 1371  cd docker/shotgun
+ 1372  sudo nano /etc/hosts
+ 1373  vagrant uninstall vagrant_triggers
+ 1374  vagrant uninstall vagrant-triggers
+ 1375  vagrant plugin uninstall vagrant-triggers
+ 1376  lsof -i tcp:3000
+ 1377  kill 17612
+ 1378  lsof -i tcp:8000
+ 1379  lsof -i tcp:3000
+ 1380  vagrant plugin uninstall vagrant-triggers
+ 1381  vagrant halt --force && vagrant up && vagrant reload --provision
+ 1382  cd ../dev_vm
+ 1383  git pull origin master
+ 1384  vagrant soft_nuke
+ 1385  source boot.sh
+ 1386  vagrant ssh -c sg_stop_shotgun
+ 1387  lsof -i tcp:3000
+ 1388  \curl -sSL https://get.rvm.io | bash -s stable
+ 1389  source /Users/dimanal/.rvm/scripts/rvm
+ 1390  rvm install ruby-2.3.18
+ 1391  vagrant destroy
+ 1392  vagrant up --provision
+ 1393  git checkout --track origin/ticket/SG-9499_theme_add_media_dialog
+ 1394  vagrant halt --force
+ 1395  docker-compose up --build ap
+ 1396  docker-compose down -v
+ 1397  docker-compose up --build app
+ 1398  docker-compose exec app npm run watch
+ 1399  lsof -i TCP:3000
+ 1400  kill 1410
+ 1401  docker-compose up --build app
+ 1402  cat /etc/hosts
+ 1403  npm run watch
+ 1404  npm run dev
+ 1405  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1406  cat /etc/paths
+ 1407  cat /etc/hosts
+ 1408  lsof -i tcp:30001
+ 1409  lsof -i tcp:3001
+ 1410  lsof -i tcp:3000
+ 1411  lsof -i tcp:3002
+ 1412  lsof -i tcp:3001
+ 1413  kill 2284
+ 1414  npm run watch
+ 1415  ping localhost
+ 1416  sudo nano /etc/hosts
+ 1417  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1418  docker-compose down -v
+ 1419  docker-compose up --build app
+ 1420  lsof -i tcp:80
+ 1421  lsof -i tcp:8000
+ 1422  lsof -i tcp:3000
+ 1423  ifconfig
+ 1424  npm run watch
+ 1425  docker-compose kill app
+ 1426  docker login
+ 1427  docker login quay.io
+ 1428  docker kill $(docker ps -q)
+ 1429  docker_clean_ps
+ 1430  alias docker_clean_images='docker rmi $(docker images -a --filter=dangling=true -q)'
+ 1431  alias docker_clean_ps='docker rm $(docker ps --filter=status=exited --filter=status=created -q)'
+ 1432  docker_clean_ps
+ 1433  docker rmi $(docker images -a -q)
+ 1434  docker-compose down -v
+ 1435  docker-compose up app
+ 1436  lsof -i tcp:3000
+ 1437  docker-compose exec app npm run watch
+ 1438  python ./script/make_icon_image_map.py 
+ 1439  git checkout --track origin/hackathon_lv
+ 1440  git fetch
+ 1441  git checkout --track origin/hackathon_2018_lv
+ 1442  docker-compose down -v
+ 1443  docker-compose up app
+ 1444  docker-compose down -v
+ 1445  docker-compose up --build app
+ 1446  history | grep watch
+ 1447  docker-compose exec app npm run watch
+ 1448  docker-compose exec app npm run dev
+ 1449  ping 172.19.0.5
+ 1450  ifconfig
+ 1451  git pull origin hackathon_2018_lv
+ 1452  git fetch
+ 1453  git pull origin hackathon_2018_lv
+ 1454  git log
+ 1455  git pull origin hackathon_2018_lv
+ 1456  history | grep passenger
+ 1457  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1458  docker-compose exec app npm run dev
+ 1459  cd docker4/shotgun
+ 1460  docker-compose exec app npm run watch
+ 1461  lsof -i tcp:3001
+ 1462  kill 492
+ 1463  docker-compose exec app npm run watch
+ 1464  lsof -i tcp:3001
+ 1465  kill 3259
+ 1466  docker-compose exec app npm run watch
+ 1467  docker-compose down -v
+ 1468  docker-compose up --build app
+ 1469  history | grep quay
+ 1470  docker login quay.io
+ 1471  history | grep quay
+ 1472  docker login quay.io
+ 1473  docker-compose down -v
+ 1474  docker-compose up --build app
+ 1475  docker-compose exec app npm run watch
+ 1476  docker-compose exec app npm run dev
+ 1477  docker-compose down -v
+ 1478  docker-compose up --build app
+ 1479  docker-compose exec app npm run dev
+ 1480  docker-compose exec app npm run watch
+ 1481  docker-compose down -v
+ 1482  docker-compose up --build app
+ 1483  docker-compose exec app npm run watch
+ 1484  docker-compose exec app npm run dev
+ 1485  cd docker4/shotgun
+ 1486  python make_icon_image_map
+ 1487  python make_icon_image_map.py
+ 1488  docker-compose exec app python make_icon_image_map.py
+ 1489  docker-compose run --rm --entrypoint bash app
+ 1490  python script/make_icon_image_map.py
+ 1491  cd public
+ 1492  cd ..
+ 1493  history | make
+ 1494  history | grep make
+ 1495  python script/make_icon_image_map.py
+ 1496  docker-compose exec app /docker-entrypoint.sh bash
+ 1497  ls
+ 1498  python script/make_icon_image_map.py
+ 1499  ls
+ 1500  cd public/images
+ 1501  ls
+ 1502  ls *ATTACH*
+ 1503  cd default/
+ 1504  cd bla
+ 1505  pwd
+ 1506  python script/make_icon_image_map.py
+ 1507  python ./script/make_icon_image_map.py
+ 1508  cd ../../
+ 1509  python ./script/make_icon_image_map.py
+ 1510  pwd
+ 1511  python ./script/make_icon_image_map.py
+ 1512  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1513  docker-compose exec app npm run dev
+ 1514  docker-compose up app
+ 1515  python ./script/make_icon_image_map.py
+ 1516  docker-compose down -v
+ 1517  docker-compose up --build app
+ 1518  docker-compose exec app npm run watch
+ 1519  docker-compose exec app npm run dev
+ 1520  docker-compose down -v
+ 1521  docker-compose up --build app
+ 1522  docker-compose exec app npm run dev
+ 1523  docker-compose exec app npm run watch
+ 1524  python ./script/make_icon_image_map.py
+ 1525  docker-compose down -v
+ 1526  docker-compose up --build app
+ 1527  docker-compose exec app npm run dev
+ 1528  docker-compose exec app npm run watch
+ 1529  git status
+ 1530  docker-compose down -v
+ 1531  docker-compose up --build app
+ 1532  docker-compose exec app npm run dev
+ 1533  docker-compose exec app npm run watch
+ 1534  git checkout --track release/8.0.3.0
+ 1535  git checkout release/8.0.3.0
+ 1536  docker-compose down -v
+ 1537  docker-compose up --build app
+ 1538  docker-compose exec app npm run dev
+ 1539  docker-compose exec app npm run watch
+ 1540  docker-compose exec app npm run build
+ 1541  cat /etc/hosts
+ 1542  docker-compose exec app npm run watch
+ 1543  history | grep rake
+ 1544  rake
+ 1545  docker-compose exec app npm run watch
+ 1546  docker-compose exec app npm run dev
+ 1547  rake asset:packager:rebuild_all
+ 1548  docker-compose exec app rake asset:packager:rebuild_all
+ 1549  docker-compose run --rm --entrypoint bash app
+ 1550  docker-compose down -v
+ 1551  git checkout master
+ 1552  git fetch
+ 1553  git checkout ticket/SG-8917_project_nav_as_footer_8_0_3
+ 1554  git pull origin ticket/SG-8917_project_nav_as_footer_8_0_3
+ 1555  git pull origin master
+ 1556  vagrant up --provision
+ 1557  vagrant ssh
+ 1558  bin/restart_shotgun
+ 1559  vagrant halt
+ 1560  vagrant plugin uninstall vagrant-triggers
+ 1561  vagrant up --provision
+ 1562  sudo nano /etc/hosts
+ 1563  exit
+ 1564  vagrant soft_nuke
+ 1565  sudo nano /etc/hosts
+ 1566  lsof -tcp:3000
+ 1567  lsof -tcp:8000
+ 1568  lsof -tcp:3001
+ 1569  lsof
+ 1570  lsof -tcp:80
+ 1571  ps aux | grep 3000
+ 1572  ps aux | grep 8000
+ 1573  ps aux | grep 3001
+ 1574  vagrant halt
+ 1575  vagrant soft_nuke
+ 1576  sudo nano /etc/hosts
+ 1577  vagrant soft_nuke
+ 1578  vagrant halt
+ 1579  source boot.sh
+ 1580  rvm install "ruby-2.3.8
+ 1581  rvm install "ruby-2.3.8"
+ 1582  vagrant ssh
+ 1583  vagrant up
+ 1584  vagrant halt
+ 1585  vagrant up
+ 1586  vagrant halt --force
+ 1587  vagrant up
+ 1588  sudo nano /etc/hosts
+ 1589  vagrant provision
+ 1590  vagrant ssh
+ 1591  git checkout master
+ 1592  git stash
+ 1593  git checkout master
+ 1594  git pull origin master
+ 1595  vagrant provision
+ 1596  vagrant halt --force
+ 1597  vagrant provision
+ 1598  vagrant up --provision
+ 1599  vagrant halt --force
+ 1600  vagrant up --provision
+ 1601  vagrant halt
+ 1602  vagrant up
+ 1603  vagrant halt
+ 1604  vagrant up
+ 1605  vagrant reload
+ 1606  sudo nano /etc/hosts
+ 1607  lsof -tcp:3000
+ 1608  lsof -tcp:3001
+ 1609  lsof -tcp:8001
+ 1610  ps aux | grep 3000
+ 1611  vagrant halt
+ 1612  docker-compose down -v
+ 1613  docker-compose up --build app
+ 1614  docker-compose exec app npm run build
+ 1615  cat /etc/hosts
+ 1616  docker-compose exec app npm run watch
+ 1617  ls
+ 1618  docker-compose exec app npm run watch
+ 1619  docker-compose exec app npm run dev
+ 1620  docker-compose down -v
+ 1621  docker-compose up --build app
+ 1622  docker-compose down -v
+ 1623  history | grep quay
+ 1624  docker login quay.io
+ 1625  docker-compose up --build app
+ 1626  docker login quay.io
+ 1627  docker-compose up --build app
+ 1628  docker-compose exec app npm run dev
+ 1629  docker-compose exec app npm run watch
+ 1630  docker-compose exec app npm run dev
+ 1631  docker-compose exec app npm run build_css
+ 1632  docker-compose up app
+ 1633  history | grep passenger
+ 1634  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1635  docker-compose exec app npm run build_css
+ 1636  ls
+ 1637  docker-compose down -v
+ 1638  docker-compose up --build app
+ 1639  docker-compose exec app npm run dev
+ 1640  docker-compose exec app npm run watch
+ 1641  docker-compose exec app npm run dev
+ 1642  docker-compose down -v
+ 1643  docker-compose up --build app
+ 1644  docker-compose exec app npm run watch
+ 1645  docker-compose exec app npm run dev
+ 1646  git stash
+ 1647  git stash pop
+ 1648  docker-compose exec app npm run dev
+ 1649  docker-compose exec app npm run watch
+ 1650  docker-compose down -v
+ 1651  docker-compose up --build app
+ 1652  docker-compose exec app npm run dev
+ 1653  docker-compose exec app npm run watch
+ 1654  docker-compose down -v && docker-compose up --build app
+ 1655  mate
+ 1656  nano /etc/hosts
+ 1657  alias hosty='nano /etc/hosts'
+ 1658  hosty
+ 1659  source .zshrc
+ 1660  hosty
+ 1661  nano ~/.zsh
+ 1662  source .zshrc
+ 1663  hosty
+ 1664  source .zshrc
+ 1665  hosty
+ 1666  nano ~/.bash_profile
+ 1667  hosty
+ 1668  source ~/.bash_profile
+ 1669  hosty
+ 1670  nano ~/.zshrc
+ 1671  nano ~/.zsh
+ 1672  nano ~/.bash_profile
+ 1673  nano ~/.zshrc
+ 1674  hosty
+ 1675  source ~/.zshrc
+ 1676  hosty
+ 1677  docker-compose exec app npm run dev
+ 1678  docker-compose exec app npm run watch
+ 1679  docker-compose exec app npm run dev
+ 1680  docker-compose exec app npm run watch
+ 1681  nano ~/.zshrc
+ 1682  source ~/.zshrc
+ 1683  dc-refresh
+ 1684  source ~/.zshrc
+ 1685  dc-refresh
+ 1686  docker-compose exec app npm run watch
+ 1687  docker-compose exec app npm run dev
+ 1688  docker-compose exec app npm run watch
+ 1689  history | grep passenger
+ 1690  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 1691  docker-compose exec app npm run watch
+ 1692  docker-compose exec app npm run dev
+ 1693  docker-compose exec app npm run watch
+ 1694  docker-compose exec app npm run dev
+ 1695  docker-compose down -v
+ 1696  docker-compose up --build app
+ 1697  docker-compose exec app npm run watch
+ 1698  docker-compose exec app npm run dev
+ 1699  docker-compose down -v
+ 1700  docker-compose up --build app
+ 1701  docker-compose exec app npm run dev
+ 1702  docker-compose exec app npm run watch
+ 1703  docker-compose down -v
+ 1704  docker-compose up --build app
+ 1705  docker-compose exec app npm run dev
+ 1706  docker-compose exec app npm run watch
+ 1707  docker-compose exec app npm run dev
+ 1708  docker-compose exec app npm run watch
+ 1709  docker-compose down -v
+ 1710  docker-compose up --build app
+ 1711  docker-compose exec app npm run watch
+ 1712  docker-compose exec app npm run dev
+ 1713  docker-compose down -v
+ 1714  docker-compose up --build app
+ 1715  docker-compose exec app npm run watch
+ 1716  docker-compose exec app npm run dev
+ 1717  docker-compose down -v
+ 1718  docker-compose up --build app
+ 1719  docker-compose exec app npm run watch
+ 1720  docker-compose exec app npm run dev
+ 1721  docker-compose down -v
+ 1722  docker-compose up --build app
+ 1723  docker-compose down -v
+ 1724  docker-compose up --build app
+ 1725  docker-compose exec app npm run watch
+ 1726  docker-compose exec app npm run dev
+ 1727  docker-compose down -v
+ 1728  docker-compose up --build app
+ 1729  docker-compose exec app npm run watch
+ 1730  docker-compose exec app npm run dev
+ 1731  docker-compose exec app npm run watch
+ 1732  docker-compose exec app npm run dev
+ 1733  docker-compose exec app npm run build_css
+ 1734  docker-compose exec app npm run watch
+ 1735  docker-compose exec app npm run dev
+ 1736  docker-compose exec app npm run watch
+ 1737  git status
+ 1738  git branch
+ 1739  git checkout 7574e043cf31bb44765994023042a1e5a4d77dae .
+ 1740  docker-compose exec app npm run dev
+ 1741  docker-compose exec app npm run watch
+ 1742  docker-compose down -v
+ 1743  docker-compose up --build app
+ 1744  docker-compose exec app npm run watch
+ 1745  docker-compose exec app npm run dev
+ 1746  nano ~/.zshrc
+ 1747  dc-refresh
+ 1748  docker-compose exec app npm run dev
+ 1749  docker-compose exec app npm run watch
+ 1750  dc-refresh
+ 1751  cd docker4
+ 1752  cd shotgun
+ 1753  rvm install "ruby-2.3.8
+ 1754  rvm install "ruby-2.3.8"
+ 1755  cd docker4
+ 1756  ls
+ 1757  cd shotgun
+ 1758  which iterm2
+ 1759  cd docker4
+ 1760  cd shotgun
+ 1761  dc-refresh
+ 1762  cd docker4/shotgun
+ 1763  git branch
+ 1764  ls
+ 1765  git
+ 1766  xcode-select --install
+ 1767  git
+ 1768  git branch
+ 1769  dc-refresh
+ 1770  git checkout master
+ 1771  git pull origin master
+ 1772  git status
+ 1773  dc-refresh
+ 1774  docker-compose down -v
+ 1775  docker-compose up app
+ 1776  bundle install
+ 1777  docker login quay.io
+ 1778  git update-index --assume-unchanged config/hostname config/memcached.yml
+ 1779  docker-compose down -v
+ 1780  docker-compose up app
+ 1781  bundle install --deployment
+ 1782  cd /usr/local/lib/ruby/gems/2.5.0/gems/
+ 1783  ls
+ 1784  gem install bundler-1.16.6
+ 1785  gem sources
+ 1786  gem install bundler -v 1.16.6
+ 1787  locate iterm2.app
+ 1788  cd ~
+ 1789  cd /
+ 1790  locate iterm2.app
+ 1791  locate iterm.app
+ 1792  find / -name "iterm2.app"
+ 1793  sudo find / -name "iterm2.app"
+ 1794  sudo find ~ -name "iterm2.app"
+ 1795  sudo find ~/ -name "iterm2.app"
+ 1796  gem install bundler-1.16.6
+ 1797  gem install bundler -v 1.16.6
+ 1798  gem install mygem --user-install
+ 1799  ruby -v
+ 1800  gem install bundler -v 1.16.6
+ 1801  cd docker4/shotgun
+ 1802  rvm install "ruby-2.3.8"
+ 1803  cd docker4/shotgun
+ 1804  ls
+ 1805  gem install bundler -v 1.16.6
+ 1806  sudo gem install bundler -v 1.16.6
+ 1807  gem install bundler -v 1.16.6
+ 1808  docker-compose down -v
+ 1809  docker-compose up app
+ 1810  bundle install
+ 1811  docker-compose up app
+ 1812  bundle install --deployment
+ 1813  gem install pg -v '0.20.0
+ 1814  gem install pg -v '0.20.0'
+ 1815  brew update
+ 1816  brew install postgresql
+ 1817  gem install pg -v '0.20.0'
+ 1818  bundle install --deployment
+ 1819  docker-compose down -v
+ 1820  docker-compose up app
+ 1821  gem install aws-partitions -v '1.132.0'
+ 1822  docker-compose up app
+ 1823  docker-compose down -v
+ 1824  docker-compose up app
+ 1825  bundle update
+ 1826  gem install bundler
+ 1827  bundle update
+ 1828  bundle install --no-deployment
+ 1829  docker-compose down -v
+ 1830  docker-compose up --build app
+ 1831  docker-compose exec app npm run build_css
+ 1832  cat /root/.npm/_logs/2019-01-17T19_56_41_241Z-debug.log
+ 1833  $DEVELOPMENT
+ 1834  clear
+ 1835  ls
+ 1836  cd public/
+ 1837  ls
+ 1838  git checkout master
+ 1839  git stash
+ 1840  git checkout master
+ 1841  git pull origin master
+ 1842  docker-compose down -v
+ 1843  cd javascripts
+ 1844  cd components
+ 1845  ls n*
+ 1846  ls
+ 1847  ls -la
+ 1848  git log
+ 1849  git log | grep acupy
+ 1850  git log
+ 1851  ls
+ 1852  git status
+ 1853  git remote -v
+ 1854  git status
+ 1855  git stash
+ 1856  git config core.ignorecase false
+ 1857  git pull origin master
+ 1858  ls
+ 1859  git -v
+ 1860  git --version
+ 1861  git config
+ 1862  git config --list
+ 1863  git config --list | grep case
+ 1864  git log
+ 1865  git checkout --track ticket/SG-10074_add_email_webhook_signature
+ 1866  git checkout --track origin/ticket/SG-10074_add_email_webhook_signature
+ 1867  git stash
+ 1868  git checkout --track origin/ticket/SG-10074_add_email_webhook_signature
+ 1869  git checkout --track origin/ticket/SG-9499_theme_add_media_dialog
+ 1870  git checkout origin/ticket/SG-9499_theme_add_media_dialog
+ 1871  git checkout master
+ 1872  git pull origin master
+ 1873  ls
+ 1874  git checkout origin/ticket/SG-9499_theme_add_media_dialog
+ 1875  git status
+ 1876  git reset
+ 1877  git reset --HARD
+ 1878  git reset --HARD origin/master
+ 1879  git reset --hard origin/master
+ 1880  ls
+ 1881  cd nsx
+ 1882  ls
+ 1883  pwd
+ 1884  cd ..
+ 1885  git status
+ 1886  git rm Login/
+ 1887  git rm Login/ -r
+ 1888  git status
+ 1889  git rm nsx/ -r
+ 1890  git rm NSX/ -r
+ 1891  git rm nsx/ -r
+ 1892  git status
+ 1893  git rm Welcome/ -r
+ 1894  git status
+ 1895  git rm ../../../vendor/bundle/ -r
+ 1896  git status
+ 1897  git pull origin master
+ 1898  ls
+ 1899  git clean -f -d
+ 1900  git pull origin master
+ 1901  ls
+ 1902  git checkout release/7.0.8.0
+ 1903  git status
+ 1904  ls
+ 1905  git checkout master
+ 1906  ls
+ 1907  cd ../../../
+ 1908  ls
+ 1909  dc-refresh
+ 1910  git status
+ 1911  git clean -fd
+ 1912  git status
+ 1913  rm -rf vendor/bundle
+ 1914  git status
+ 1915  ls
+ 1916  dc-refresh
+ 1917  clear
+ 1918  cd docker4/shotgun
+ 1919  docker-compose exec app npm run dev
+ 1920  docker-compose exec app npm run watch
+ 1921  dc-refresh
+ 1922  docker-compose exec app npm run dev
+ 1923  docker-compose exec app npm run watch
+ 1924  docker-compose down -v
+ 1925  cd docker/shotgun
+ 1926  git clean -df
+ 1927  cd ..
+ 1928  ls
+ 1929  cd shotgun
+ 1930  vagrant halt
+ 1931  vagrant up
+ 1932  vagrant halt --force
+ 1933  vagrant up --provision
+ 1934  vagrant ssh
+ 1935  vagrant plugin uninstall vagrant-triggers
+ 1936  vagrant halt --force
+ 1937  vagrant up --provision
+ 1938  vagrant halt --force
+ 1939  cd ..
+ 1940  cd dev_vm
+ 1941  git pull origin master
+ 1942  source boot.sh
+ 1943  rm -rf /opt/vagrant
+ 1944  sudo rm -rf /opt/vagrant
+ 1945  sudo rm -f /usr/local/bin/vagrant
+ 1946  sudo pkgutil --forget com.vagrant.vagrant
+ 1947  ./boot.sh
+ 1948  vagrant
+ 1949  ls
+ 1950  ./clean.sh
+ 1951  brew tap caskroom/cask
+ 1952  eval "$(direnv hook zsh)"
+ 1953  git clone git@github.com:direnv/direnv.git
+ 1954  cd direnv
+ 1955  make
+ 1956  direnv allow . && eval "$(direnv export bash)"
+ 1957  direnv
+ 1958  eval "$(direnv hook $SHELL)"
+ 1959  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+ 1960  brew install direnv
+ 1961  cd ~
+ 1962  ;s
+ 1963  ls
+ 1964  ./clean.sh
+ 1965  cd ..
+ 1966  ./clean.sh
+ 1967  vagrant
+ 1968  cd docker/dev_vm
+ 1969  ./boot.sh
+ 1970  cd ..
+ 1971  ls
+ 1972  cd ..
+ 1973  brew cask install fish
+ 1974  brew install fish  
+ 1975  fish
+ 1976  vagrant plugin uninstall vagrant-triggers
+ 1977  source ./boot.sh
+ 1978  vagrant --version
+ 1979  vagrant -v
+ 1980  cd ..
+ 1981  ls
+ 1982  git clone git@github.com:shotgunsoftware/shotgun.git
+ 1983  cd dev_vm
+ 1984  source ./boot.sh
+ 1985  vagrant soft_nuke
+ 1986  source boot.sh
+ 1987  rm -rf /Applications/Vagrant
+ 1988  rm -f /usr/local/bin/vagrant
+ 1989  sudo pkgutil --forget com.vagrant.vagrant
+ 1990  rm -rf ~/.vagrant.d
+ 1991  vagratn
+ 1992  vagrant
+ 1993  /Volumes/Vagrant/uninstall.tool ; exit;
+ 1994  fish
+ 1995  cd docker4
+ 1996  ls
+ 1997  cd ..
+ 1998  cd docker
+ 1999  cd dev_vm
+ 2000  source boot.sh
+ 2001  /Volumes/Vagrant/uninstall.tool ; exit;
+ 2002  rails server
+ 2003  bundle install
+ 2004  gem install nokogiri -v '1.9.1' --source 'https://rubygems.org/'
+ 2005  bundle install
+ 2006  rvm install "ruby-2.3.1"
+ 2007  CD docker/shotgun
+ 2008  cd docker/shotgun
+ 2009  cd ..
+ 2010  cd dev_vm
+ 2011  source boot.sh
+ 2012  vm
+ 2013  rvm
+ 2014  rails server
+ 2015  gem install nokogiri -v 1.9.1
+ 2016  gem install ruby-nokogiri -v 1.9.1
+ 2017  gem update --system
+ 2018  xcode-select --install
+ 2019  gem install nokogiri
+ 2020  xcode-select install 
+ 2021  xcode-select --install 
+ 2022  gem install nokogiri -- --use-system-libraries=true --with-xml2-include="$(xcrun --show-sdk-path)"/usr/include/libxml2
+ 2023  xcode-select --install 
+ 2024  cd docker/shotgun
+ 2025  gem install nokogiri
+ 2026  cat/etc/hosts
+ 2027  cat /etc/hosts
+ 2028  vagrant ssh
+ 2029  vagrant provision --reload
+ 2030  cd ../shotgun
+ 2031  vagrant provision --reload
+ 2032  vagrant provision
+ 2033  rails server
+ 2034  bundle install
+ 2035  rails server
+ 2036  rails server -p 4000
+ 2037  rails server
+ 2038  git status
+ 2039  git log
+ 2040  git pull origin master 
+ 2041  rails server
+ 2042  git log
+ 2043  git checkout -b 2_question_post
+ 2044  git add .
+ 2045  git commit -m "questions view route and form"
+ 2046  rails server
+ 2047  git checkout -b 3_answers_post
+ 2048  git add .
+ 2049  git log
+ 2050  git commit -m "answers route and post"
+ 2051  git push origin 3_answers_post 
+ 2052  git checkout -b III_Models_migrations
+ 2053  git status
+ 2054  rails g resource question email:string body:text
+ 2055  rake db:migrate
+ 2056  clear
+ 2057  rails console
+ 2058  brew rm -f readline
+ 2059  brew uninstall --ignore-dependencies readline
+ 2060  brew install readline
+ 2061  brew link readline --force
+ 2062  rake db:migrate
+ 2063  rails console
+ 2064  brew uninstall --ignore-dependencies readline
+ 2065  brew uninstall --ignore-dependencies --force readline
+ 2066  brew install readline
+ 2067  brew link readline --force
+ 2068  rails console
+ 2069  bundle install
+ 2070  gem install readline
+ 2071  rails console
+ 2072  ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+ 2073  rails console
+ 2074  ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.8.dylib
+ 2075  rails console
+ 2076  ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.8.dylib
+ 2077  ln -s /usr/local/opt/readline/lib/libreadline.8.0.dylib /usr/local/opt/readline/lib/libreadline.7.dylib
+ 2078  rails c
+ 2079  clear
+ 2080  rails console
+ 2081  rails s
+ 2082  rails console
+ 2083  git status
+ 2084  git add .
+ 2085  git commit -m "generate a question resource"
+ 2086  rails s
+ 2087  git log
+ 2088  git add .
+ 2089  git commit -m "built-in helpers"
+ 2090  rails s
+ 2091  git add .
+ 2092  git commit -m "5 add post works
+ 2093  git commit -m "5 add post works"
+ 2094  git push origin III_Models_migrations 
+ 2095  git remote -v
+ 2096  git checkout master 
+ 2097  git merge III_Models_migrations 
+ 2098  git push origin master 
+ 2099  git checkout III_Models_migrations 
+ 2100  rails s
+ 2101  git status
+ 2102  licecap
+ 2103  brew cask install licecap
+ 2104  git status
+ 2105  git reset
+ 2106  git add app
+ 2107  git status
+ 2108  git log
+ 2109  git add .
+ 2110  git commit -m "6 question page"
+ 2111  git status
+ 2112  rails g resource answer question_id:integer email:string body:text
+ 2113  rake routes
+ 2114  rake db:migrate
+ 2115  rails s
+ 2116  rails c
+ 2117  clear
+ 2118  rails c
+ 2119  git add .
+ 2120  git reset
+ 2121  git status
+ 2122  git add app
+ 2123  git commit -m "7 create answer"
+ 2124  git add app
+ 2125  git commit -m "7 answers view + relationships"
+ 2126  git add .
+ 2127  git commit -m "docs"
+ 2128  git push origin III_Models_migrations 
+ 2129  git branch
+ 2130  sudo nano /etc/hosts
+ 2131  vagrant halt --force && vagrant up
+ 2132  vagrant reload --provision
+ 2133  git checkout -b ticket/SG-9587_remove_ui_refresh_flag
+ 2134  vagrant reload --provision
+ 2135  cd docker/shotgun
+ 2136  cd docker4/shotgun
+ 2137  git clean -df
+ 2138  git status
+ 2139  git checkout ticket/SG-2270_uniqueness_not_apply_on_retired
+ 2140  git rm -rf public/javascripts/components/
+ 2141  git status
+ 2142  git clean  -d  -fx .
+ 2143  git status
+ 2144  git checkout ticket/SG-2270_uniqueness_not_apply_on_retired  .
+ 2145  git status
+ 2146  git checkout ticket/SG-2270_uniqueness_not_apply_on_retired  .
+ 2147  git status
+ 2148  git add .
+ 2149  git commit -m "fix, dnt push"
+ 2150  git checkout master .
+ 2151  git clean -df
+ 2152  git merge master -f
+ 2153  git merge master
+ 2154  git merge -X theirs master
+ 2155  git add *
+ 2156  git stash
+ 2157  git pull
+ 2158  git fetch --all
+ 2159  git reset --hard origin/master
+ 2160  npm run dev
+ 2161  npm run watch
+ 2162  git reset --hard cadccbfdeab9a27f9c89ac9f113011942f41070d
+ 2163  git push --force
+ 2164  ls
+ 2165  git status
+ 2166  git log
+ 2167  git checkout master .
+ 2168  git merge -X theirs master
+ 2169  git clean -df
+ 2170  git checkout origin/master public/javascripts/component
+ 2171  git checkout origin/master public/javascripts/components/*
+ 2172  git checkout origin/master public/javascripts/components/
+ 2173  git status
+ 2174  git reset --merge
+ 2175  git status
+ 2176  git checkout origin/master public/javascripts/components/
+ 2177  git checkout origin/master public/javascripts/components/nsx
+ 2178  git checkout origin/master public/javascripts/components
+ 2179  rm -rf public/javascripts/components/nsx
+ 2180  git clean -df
+ 2181  git clean -n
+ 2182  git rm --cached
+ 2183  git rm --cached -n
+ 2184  git rm --cached
+ 2185  git rm --cached .
+ 2186  git rm --cached -r .
+ 2187  git clean -df
+ 2188  git stash
+ 2189  git rm --cached public/javascripts/components
+ 2190  git rm --cached public/javascripts/components -r
+ 2191  git config core.ignorecase true
+ 2192  git config core.ignorecase false
+ 2193  git config core.ignorecase true
+ 2194  cd docker4/shotgun
+ 2195  git diff origin/master...origin/release/8.0.3.0
+ 2196  git status
+ 2197  history
+ 2198  git rebase --abort
+ 2199  git reset --hard c4dd8608831e6170bd9761b0daa8c69238f7ed06
+ 2200  git status
+ 2201  git push --force
+ 2202  git cherry-pick 73e7a82ec6f8036c934dfe1e71d54d7797c37523..727ce1d7c8fa0d82b7b426194690a0a9c884bffc
+ 2203  git cherry-pick 1648bf1cda53f10b410731c502197e223cbdb0b1
+ 2204  git log
+ 2205  git cherry-pick 73e7a82ec6f8036c934dfe1e71d54d7797c37523
+ 2206  git cherry-pick b6a3e14538a33d490d3588ee34bd188b5de7d6e3
+ 2207  git cherry-pick d649d1c743a42e032dbad9564178e483975a11eb
+ 2208  git cherry-pick 4d84cd3f21095492753b1d9fdd31e05d36b2b6e2
+ 2209  git cherry-pick 
+ 2210  git cherry-pick 08f4e61dbe901d1c16a60d16a4317ef1a8062a00
+ 2211  git cherry-pick 7ed834bd5b6db94281bfff0770240768fbc2e0ca
+ 2212  git cherry-pick 0bdbf812d481a50e5699ee664807b0b0c0748e0f
+ 2213  git cherry-pick daa25cbce9ef42124798e886042253fdf8a24d6b
+ 2214  git cherry-pick aae45478b8193151d8b9d426644c764e9f7ee985
+ 2215  git cherry-pick 9a521c2b3fc7474591e7c605f8b4f027f0ed62f6
+ 2216  git cherry-pick d09b192115d71dfed9dc954311d878b96c84f5b0
+ 2217  git cherry-pick
+ 2218  git cherry-pick e01e690d1ee83bb8b7c7c4ce0015733e28969472
+ 2219  git cherry-pick 727ce1d7c8fa0d82b7b426194690a0a9c884bffc
+ 2220  git cherry-pick 1648bf1cda53f10b410731c502197e223cbdb0b1
+ 2221  git cherry-pick b6379c5caab50dd81d03740d96a1161537b353f1
+ 2222  git cherry-pick be46e404b6693ecc922b5cbcda7eb74a0b9902e8
+ 2223  git cherry-pick 045a6a75217c7e4597ac3efdbe7ec0a95fa82c20
+ 2224  git cherry-pick 629640fe5f3cc303522f27408d121fff7a7ef459
+ 2225  git cherry-pick c4dd8608831e6170bd9761b0daa8c69238f7ed06
+ 2226  history
+ 2227  git reset --hard cadccbfdeab9a27f9c89ac9f113011942f41070d
+ 2228  git push --force
+ 2229  ls
+ 2230  vagrant ssh
+ 2231  sudo nano /etq/hos
+ 2232  sudo nano /etc/hosts
+ 2233  npm run watch
+ 2234  npm install -g gulp
+ 2235  sudo nano /etc/hosts
+ 2236  npm run watch
+ 2237  npm install gulp
+ 2238  npm run watch
+ 2239  npm run dev
+ 2240  sudo nano /etc/hosts
+ 2241  vagrant halt --force && vagrant up
+ 2242  cat /etc/hosts
+ 2243  vagrant provision
+ 2244  npm run watch
+ 2245  vagrant halt --force
+ 2246  dc-refresh
+ 2247  docker-compose exec app npm run dev
+ 2248  docker-compose exec app npm run watch
+ 2249  dc-refresh
+ 2250  docker-compose exec app npm run watch
+ 2251  docker-compose exec app npm run dev
+ 2252  git status
+ 2253  git add .
+ 2254  git commit -m "small change"
+ 2255  git push origin ticket/SG-2270_uniqueness_not_apply_on_retired
+ 2256  git add .
+ 2257  git commit -m "small change"
+ 2258  git push origin ticket/SG-2270_uniqueness_not_apply_on_retired
+ 2259  git add .
+ 2260  git commit -m "small change"
+ 2261  git push origin ticket/SG-2270_uniqueness_not_apply_on_retired
+ 2262  git checkout -b ticket/SG-2270_uniqueness_not_apply_on_retired_2
+ 2263  git checkout -b ticket/SG-2270_uniqueness_not_apply_on_retired_3
+ 2264  git push origin ticket/SG-2270_uniqueness_not_apply_on_retired_3
+ 2265  git checkout master
+ 2266  git pull origin master
+ 2267  git checkout -b ticket/SG-2270_uniqueness_not_apply_on_retired_4
+ 2268  git cherry-pick 
+ 2269  git cherry-pick 97da6b65ea296c453048059220864b87ff533e20
+ 2270  git cherry-pick de6b1e94cf81ad289d95b4dcf52aa3688f5c1500
+ 2271  git cherry-pick 33d8463561dff1b6a4caea45055fa10b33671a6d
+ 2272  git cherry-pick 5b11f17409788902fc05183ae4f47dd150c0916f
+ 2273  git cherry-pick 63b733d873f744b4bb17b4ec1bc77430794bb19a
+ 2274  git cherry-pick be1053a82343f9f86912a2cfc48748da7301b49f
+ 2275  git cherry-pick cadccbfdeab9a27f9c89ac9f113011942f41070d
+ 2276  git push origin ticket/SG-2270_uniqueness_not_apply_on_retired_4
+ 2277  git diff ticket/SG-2270_uniqueness_not_apply_on_retired ticket/SG-2270_uniqueness_not_apply_on_retired_4
+ 2278  git diff ticket/SG-2270_uniqueness_not_apply_on_retired ticket/SG-2270_uniqueness_not_apply_on_retired_4 -- lib/query/id_query_nodes.rb
+ 2279  dc-refresh
+ 2280  docker-compose exec app npm run watch
+ 2281  docker-compose exec app npm run dev
+ 2282  ls
+ 2283  mkdir git_try
+ 2284  git init
+ 2285  git remote add origin git@github.com:lenmorld2/git_try.git
+ 2286  touch file
+ 2287  nano file
+ 2288  ls
+ 2289  cd git_try
+ 2290  ls
+ 2291  cd ..
+ 2292  rm -rf .git/
+ 2293  cd git_try
+ 2294  git init
+ 2295  git remote add origin git@github.com:lenmorld2/git_try.git
+ 2296  touch file
+ 2297  nano file
+ 2298  git add .
+ 2299  git commit -m "1"
+ 2300  git push -u origin master 
+ 2301  rm -rf .git
+ 2302  git init
+ 2303  ls
+ 2304  git add .
+ 2305  git commit -m "1"
+ 2306  git remote add origin git@github.com:lenmorld/git_try.git
+ 2307  git push -u origin master
+ 2308  nano file
+ 2309  git commit -am "2"
+ 2310  nano file
+ 2311  git commit -am "3"
+ 2312  git push origin master 
+ 2313  nano file
+ 2314  git commit -am "4"
+ 2315  nano file
+ 2316  git commit -am "5"
+ 2317  git push origin master 
+ 2318  git checkout -b try1
+ 2319  git log
+ 2320  nano file
+ 2321  git commit -am "t6"
+ 2322  nano file
+ 2323  git commit -am "t7"
+ 2324  nano file
+ 2325  git commit -am "t8"
+ 2326  git push origin try1
+ 2327  git diff master...try1
+ 2328  nano file
+ 2329  git commit -am "X
+ 2330  git commit -am "X1"
+ 2331  nano file
+ 2332  git commit -am "X2"
+ 2333  git push origin try1  
+ 2334  git checkout master 
+ 2335  git log
+ 2336  nano file
+ 2337  git commit -am "M1"
+ 2338  nano file
+ 2339  git commit -am "M2"
+ 2340  git push origin master 
+ 2341  git diff master...try_1
+ 2342  git diff try1...master
+ 2343  git checkout try1 
+ 2344  git log
+ 2345  git checkout -b try1_bak
+ 2346  git push origin try1_bak 
+ 2347  git checkout try1
+ 2348  git log
+ 2349  git rebase -i --onto 2f80eb1283b72ab0f9aeb65fdcb9dc7f613bf7f5 9d22a0216d686b3eca8812e2b3d71274c9391832
+ 2350  nano file
+ 2351  git rebase --abort
+ 2352  git log
+ 2353  git rebase -i --onto 2f80eb1283b72ab0f9aeb65fdcb9dc7f613bf7f5 9d22a0216d686b3eca8812e2b3d71274c9391832
+ 2354  git rebase --abort
+ 2355  git rebase -i --onto 2f80eb1283b72ab0f9aeb65fdcb9dc7f613bf7f5 9d22a0216d686b3eca8812e2b3d71274c9391832
+ 2356  nano file
+ 2357  git rebase --continue
+ 2358  git add file
+ 2359  git rebase --continue
+ 2360  nano file
+ 2361  git rebase --continue
+ 2362  git add .
+ 2363  git rebase --continue
+ 2364  nano file
+ 2365  git log
+ 2366  nnano file
+ 2367  nano file
+ 2368  git log
+ 2369  git push origin try1
+ 2370  git push --force
+ 2371  git push --set-upstream origin try1
+ 2372  git push --set-upstream --force origin try1
+ 2373  history | grep passenger
+ 2374  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2375  cd .git
+ 2376  ls
+ 2377  cat .git/config
+ 2378  cat config
+ 2379  git config --list --show-origin
+ 2380  git checkout origin/master public/javascripts/importer/entity_preview.js
+ 2381  git checkout master public/javascripts/importer/entity_preview.js
+ 2382  cd ..
+ 2383  git checkout master public/javascripts/importer/entity_preview.js
+ 2384  git checkout master public/javascripts/grid/pivot_grid.js
+ 2385  docker-compose exec app npm test
+ 2386  npm test help
+ 2387  docker-compose run --rm --entrypoint bash app --verbose
+ 2388  docker-compose run --rm --entrypoint bash app 
+ 2389  docker-compose exec npm test --watch
+ 2390  docker-compose exec app npm test --watch
+ 2391  history | grep test
+ 2392  npm test --watch
+ 2393  jest
+ 2394  npm install jest
+ 2395  docker-compose run --rm app bash
+ 2396  npm run test:classic --watch
+ 2397  npm test --watch
+ 2398  npx karma start test/javascript/classic/karma.conf.js --auto-watch
+ 2399  dc
+ 2400  docker-compose
+ 2401  docker-compose exec app npm run dev
+ 2402  npm test --watch
+ 2403  npx karma --auto-watch
+ 2404  docker-compose exec app npm test --watch
+ 2405  jest test/javascript/classic/utilGridHelperSpec.js
+ 2406  jest
+ 2407  npm install jest
+ 2408  jest
+ 2409  npm install jest-cli
+ 2410  jest
+ 2411  jest -t
+ 2412  node_modules/jest
+ 2413  cd ..
+ 2414  jest
+ 2415  cd ..
+ 2416  jest
+ 2417  ./node_modules/.bin/jest
+ 2418  ./node_modules/.bin/jest -t test/javascript/classic/utilGridHelperSpec.js
+ 2419  ./node_modules/.bin/jest -t 'test/javascript/classic/utilGridHelperSpec.js'
+ 2420  ./node_modules/.bin/jest --watch
+ 2421  /Users/dimanal/docker4/shotgun/web_modules/ds/@sgds/design-language
+ 2422  ls
+ 2423  cat index.js
+ 2424  ls
+ 2425  npm init
+ 2426  ls
+ 2427  bin/update_design_system_packages.sh
+ 2428  cd ~/docker4/shotgun
+ 2429  bin/update_design_system_packages.sh
+ 2430  git status
+ 2431  npm login --registry https://art-bobcat.autodesk.com:443/artifactory/api/npm/team-shotgun-npm-virtual/ --scope @sgds --always-auth
+ 2432  bin/update_design_system_packages.sh
+ 2433  ./node_modules/.bin/jest --watch
+ 2434  npx karma start test/javascript/classic/karma.conf.js --auto-watch
+ 2435  cat /root/.npm/_logs/2019-01-23T15_09_10_516Z-debug.log
+ 2436  bin/test_javascript
+ 2437  npx karma start test/javascript/classic/karma.conf.js --auto-watch
+ 2438  docker-compose exec app npm run watch
+ 2439  docker-compose exec app npm run dev
+ 2440  npx karma start test/javascript/classic/karma.conf.js --auto-watch
+ 2441  docker-compose exec app npm run watch
+ 2442  docker-compose exec app npm run dev
+ 2443  .
+ 2444  dc-refresh
+ 2445  docker-compose exec app npm run dev
+ 2446  docker-compose exec app npm run watch
+ 2447  dc-refresh
+ 2448  npm test
+ 2449  npm test --watch
+ 2450  nano /Users/dimanal/.npm/_logs/2019-01-24T17_45_05_955Z-debug.log
+ 2451  npm test
+ 2452  NODE_ENV
+ 2453  npm install
+ 2454  nano /Users/dimanal/.npm/_logs/2019-01-24T17_45_05_955Z-debug.log
+ 2455  npx karma start test/javascript/classic/karma.conf.js --auto-watch
+ 2456  docker-compose run --rm app bash
+ 2457  npx karma start test/javascript/classic/karma.conf.js --auto-watch
+ 2458  dc-refresh
+ 2459  docker-compose exec app npm run dev
+ 2460  docker-compose exec app npm run watch
+ 2461  docker-compose down -v
+ 2462  history | grep vagrant
+ 2463  vagrant halt --force && vagrant up
+ 2464  sudo nano /etc/hosts
+ 2465  vagrant halt --force && vagrant up
+ 2466  sudo nano /etc/hosts
+ 2467  vagrant halt --force && vagrant up
+ 2468  sudo nano /etc/hosts
+ 2469  vagrant provision
+ 2470  npm run dev
+ 2471  npm run watch
+ 2472  npm run build
+ 2473  vagrant ssh
+ 2474  history | grep webview
+ 2475  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/'
+ 2476  npm run watch
+ 2477  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://vm.shotgun.local/'
+ 2478  dc-refresh
+ 2479  vagrant halt --forcece
+ 2480  vagrant halt --force
+ 2481  dc-refresh
+ 2482  docker-compose exec app npm run dev
+ 2483  docker-compose exec app npm run watch
+ 2484  history | grep zsh
+ 2485  source ~/.zshrc
+ 2486  nano ~/.zshrc
+ 2487  source ~/.zshrc
+ 2488  npx karma start test/javascript/classic/karma.conf.js --with-coverage
+ 2489  dc run --rm app bash
+ 2490  docker-compose run --rm app bash
+ 2491  docker-compose exec app npm run dev
+ 2492  docker-compose exec app npm run watch
+ 2493  dc-refresh
+ 2494  docker-compose exec app npm run dev
+ 2495  docker-compose exec app npm run watch
+ 2496  docker-compose exec app npm run dev
+ 2497  bin/update_sgds.py
+ 2498  docker-compose exec app npm run dev
+ 2499  docker-compose exec app npm run watch
+ 2500  docker-compose down -v
+ 2501  vagrant halt --force
+ 2502  vagrant up --provision
+ 2503  vagrant halt --force
+ 2504  vagrant up --provision
+ 2505  git fetch
+ 2506  git checkout master 
+ 2507  git pull origin master 
+ 2508  git stash
+ 2509  git pull origin master 
+ 2510  git status
+ 2511  rake test
+ 2512  vagrant ssh
+ 2513  git checkout release/8.0.3.0
+ 2514  git stash
+ 2515  git checkout release/8.0.3.0
+ 2516  git pull origin release/8.0.3.0
+ 2517  vagrant ssh -c "rake test"
+ 2518  vagrant ssh
+ 2519  vagrant up
+ 2520  git stash
+ 2521  git checkout master
+ 2522  git pull origin master 
+ 2523  git checkout --track merge_release_into_master/8.0.3.0
+ 2524  git checkout --track origin/merge_release_into_master/8.0.3.0 
+ 2525  git pull origin merge_release_into_master/8.0.3.0 
+ 2526  vagrant halt --force
+ 2527  vagrant plugin uninstall vagrant-triggers
+ 2528  vagrant up --provision
+ 2529  git checkout -b merge_release_into_master_8.0.3.0_B
+ 2530  vagrant ssh
+ 2531  bin/update_sgds.py
+ 2532  git status
+ 2533  bin/update_sgds.py
+ 2534  git status
+ 2535  sg
+ 2536  vagrant ssh
+ 2537  ls
+ 2538  cd ..
+ 2539  ls
+ 2540  cd shotgun
+ 2541  vagrant ssh
+ 2542  vagrant halt --force && vagrant up
+ 2543  vagrant ssh
+ 2544  git status
+ 2545  bin/update_sgds.py
+ 2546  git status
+ 2547  git add *.sql
+ 2548  git add .sql
+ 2549  git add test/fixtures/fixtures.sql
+ 2550  git status
+ 2551  git push origin merge_release_into_master_8.0.3.0_B 
+ 2552  git log
+ 2553  git add test/fixtures/fixtures.sql
+ 2554  git status
+ 2555  git commit -m "regenerate fixtures"
+ 2556  git push origin merge_release_into_master_8.0.3.0_B 
+ 2557  vagrant ssh -c 'rake test'
+ 2558  history | grep rake
+ 2559  /opt/ruby-2.3.7/bin/ruby -I"lib:test" -I"/opt/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib" "/opt/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/rake-10.4.2/lib/rake/rake_test_loader.rb" "test/functional/id_query_nodes_test.rb"
+ 2560  vagrant ssh
+ 2561  git status
+ 2562  git add test/fixtures/fixtures.sql
+ 2563  git commit -m "reorder users in fixture"
+ 2564  git push origin merge_release_into_master_8.0.3.0_B 
+ 2565  git add test/fixtures/fixtures.sql
+ 2566  git commit -m "reorder users in fixture"
+ 2567  git push origin merge_release_into_master_8.0.3.0_B 
+ 2568  git status
+ 2569  git stash
+ 2570  git checkout merge_release_into_master/8.0.3.0
+ 2571  vagrant halt --force
+ 2572  exit
+ 2573  git checkout master
+ 2574  git stash
+ 2575  git checkout master
+ 2576  git pull origin master
+ 2577  git fetch
+ 2578  git checkout --track origin/release/8.0.3.1 
+ 2579  dc-refresh
+ 2580  dc exec app npm run dev
+ 2581  dc exec app npm run watch
+ 2582  docker-compose exec app npm run watch
+ 2583  dc-refresh
+ 2584  dc exec app npm run dev
+ 2585  docker-compose exec app npm run watch
+ 2586  git stash
+ 2587  git checkout --track origin/release/8.1.0.0 
+ 2588  git pull origin release/8.1.0.0 
+ 2589  dc-refresh
+ 2590  dc exec app npm run dev
+ 2591  docker-compose exec app npm run watch
+ 2592  sudo nano ~/.zshrc
+ 2593  docker-compose down -v
+ 2594  git status
+ 2595  git checkout master
+ 2596  git pull origin master
+ 2597  git checkout -b ticket/SG-9587_remove_ui_refresh_feature_flag
+ 2598  sudo nano ~/.zshrc
+ 2599  hisotry | grep vagrant
+ 2600  history | grep vagrant
+ 2601  source ~/.zshrc
+ 2602  source ~/.zshrc
+ 2603  v-refresh
+ 2604  npm run dev
+ 2605  npm run watch
+ 2606  sudo nano /etc/hosts
+ 2607  npm run watch
+ 2608  vagrant ssh
+ 2609  cat /etc/hosts
+ 2610  sudo nano /etc/hosts
+ 2611  vagrant provision
+ 2612  source ~/.zshrc
+ 2613  sudo nano ~/.zshrc
+ 2614  source ~/.zshrc
+ 2615  cd ..
+ 2616  ls
+ 2617  cd dev_vm
+ 2618  git pull origin master 
+ 2619  git stash
+ 2620  git pull origin master 
+ 2621  source boot2.sh
+ 2622  source boot.sh
+ 2623  bundle install
+ 2624  cd ../shotgun
+ 2625  bundle install
+ 2626  cd ../dev_vm
+ 2627  source boot.sh
+ 2628  cat /etc/hosts
+ 2629  cd ../shotgun
+ 2630  v-refresh
+ 2631  vagrant provision
+ 2632  bundle update rugged
+ 2633  vagrant provision
+ 2634  brew install cmake
+ 2635  gem install rugged -v '0.27.7' --source 'https://rubygems.org/'
+ 2636  vagrant provision
+ 2637  v-refresh
+ 2638  vagrant provision --reload
+ 2639  vagrant reload --provision
+ 2640  vagrant ssh 
+ 2641  source ~/.zshrc
+ 2642  v-refresh
+ 2643  npm run dev
+ 2644  npm run watch
+ 2645  sudo nano /etc/hosts
+ 2646  npm run dev
+ 2647  npm run watch
+ 2648  sudo nano /etc/hosts
+ 2649  vagrant ssh
+ 2650  npm run build_css --watch
+ 2651  npm run dev
+ 2652  npm run watch
+ 2653  sudo nano /etc/hosts
+ 2654  npm run watch
+ 2655  sudo nano /etc/hosts
+ 2656  git status
+ 2657  git push origin ticket/SG-9587_remove_ui_refresh_feature_flag 
+ 2658  vagrant ssh
+ 2659  vagrant halt --force
+ 2660  git pull origin master
+ 2661  git fetch
+ 2662  git checkout --track origin/ticket/SG-9587_remove_ui_refresh_feature_flag 
+ 2663  dc-refresh
+ 2664  docker-compose run --rm app bash
+ 2665  npm run dev
+ 2666  npm run watch
+ 2667  history | grep passenger
+ 2668  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2669  sudo nano /etc/hosts
+ 2670  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2671  sudo nano /etc/hosts
+ 2672  dc exec app npm run watch
+ 2673  dc exec app npm run dev
+ 2674  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2675  docker-compose run --rm app bash
+ 2676  dc exec app npm run dev
+ 2677  git revert 48f76a9
+ 2678  dc-refresh
+ 2679  dc exec app npm run dev
+ 2680  dc exec app npm run watch
+ 2681  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2682  dc exec app npm run dev
+ 2683  dc exec app npm run watch
+ 2684  sudo nano /etc/hosts
+ 2685  dc-refresh
+ 2686  git fetch
+ 2687  git checkout --track origin/ticket/SG-10385_remove_ui_refresh_feature_flag_scss 
+ 2688  git pull origin ticket/SG-10385_remove_ui_refresh_feature_flag_scss
+ 2689  dc-refresh
+ 2690  dc exec app npm run dev
+ 2691  dc exec app npm run watch
+ 2692  dc exec app npm run dev
+ 2693  dc exec app npm run watch
+ 2694  dc-refresh
+ 2695  dc exec app npm run dev
+ 2696  dc exec app npm run watch
+ 2697  history | grep i18n
+ 2698  script/i18n/shotgun_pt.rb
+ 2699  dc exec app npm run build
+ 2700  docker-compose run --rm app bash
+ 2701  dc-refresh
+ 2702  dc exec app npm run dev
+ 2703  dc exec app npm run watch
+ 2704  dc-refresh
+ 2705  dc exec app npm run dev
+ 2706  dc exec app npm run watch
+ 2707  history | grep assenger
+ 2708  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2709  docker-compose run --rm app bash
+ 2710  rake asset:packager:delete_all
+ 2711  rake asset:packager:rebuild_all
+ 2712  dc exec app npm run dev
+ 2713  dc exec app npm run watch
+ 2714  dc-refresh
+ 2715  dc exec app npm run dev
+ 2716  dc exec app npm run watch
+ 2717  dc exec app npm run dev
+ 2718  dc exec app npm run watch
+ 2719  dc-refresh
+ 2720  dc exec app npm run dev
+ 2721  dc exec app npm run watch
+ 2722  sudo nano /etc/hosts
+ 2723  lsof -tcp:3000
+ 2724  lsof -i tcp:3000
+ 2725  sudo nano /etc/hosts
+ 2726  rake asset:packager:rebuild_all
+ 2727  dc exec app npm run watch
+ 2728  dc exec app npm run dev
+ 2729  sudo nano /etc/hosts
+ 2730  dc-refresh
+ 2731  dc exec app npm run dev
+ 2732  dc exec app npm run watch
+ 2733  histsory | grep passenger
+ 2734  history | grep passenger
+ 2735  docker-compose exec app passenger-config restart-app /var/rails/shotgun/\n\n
+ 2736  sudo nano /etc/hosts
+ 2737  sudo killall -HUP mDNSResponder
+ 2738  lsof -i tcp:3000
+ 2739  lsof -i tcp:3001
+ 2740  dc-refresh
+ 2741  dc exec app npm run dev
+ 2742  dc exec app npm run watch
+ 2743  lsof -i tcp:3001
+ 2744  sudo nano /etc/hosts
+ 2745  docker-compose exec app passenger-config restart-app /var/rails/shotgun/\n\n
+ 2746  dc-refresh
+ 2747  dc exec app npm run dev
+ 2748  dc exec app npm run watch
+ 2749  docker-compose run --rm app bash
+ 2750  rake asset:packager:delete_all
+ 2751  dc exec app npm run watch
+ 2752  rake asset:packager:rebuild_all
+ 2753  docker-compose exec app passenger-config restart-app /var/rails/shotgun/\n\n
+ 2754  dc exec app npm run dev
+ 2755  dc exec app npm run watch
+ 2756  dc-refresh
+ 2757  dc exec app npm run dev
+ 2758  dc exec app npm run watch
+ 2759  rake asset:packager:delete_all
+ 2760  dc-refresh
+ 2761  dc exec app npm run dev
+ 2762  dc exec app npm run watch
+ 2763  dc-refresh
+ 2764  dc exec app npm run dev
+ 2765  dc exec app npm run watch
+ 2766  git checkout master -- public/javascripts/canvas/widget_editors/GraphWidgetEditor/GraphWidgetEditorPanel.jsx
+ 2767  git checkout master -- public/javascripts/canvas/widget_editors/HistoryGraphWidgetEditor/HistoryGraphWidgetEditorPanel.jsx
+ 2768  git checkout master --  public/javascripts/canvas/widget_editors/shared/SettingsPanel.jsx
+ 2769  git checkout master -- public/javascripts/canvas/widget_editors/shared/utils.js
+ 2770  git checkout master -- public/javascripts/util/theme.js
+ 2771  git checkout master -- src/stylesheets/common/utils/_mixins.scss
+ 2772  git revert a9ef7884f87f072f375b24c6cb4e19c7615ab237
+ 2773  git staus
+ 2774  git status
+ 2775  dc-refresh
+ 2776  dc exec app npm run dev
+ 2777  dc exec app npm run watch
+ 2778  git checkout master 
+ 2779  git status
+ 2780  git stash
+ 2781  git status
+ 2782  git checkout master 
+ 2783  git pull origin master 
+ 2784  git fetch
+ 2785  git checkout --track origin/ticket/SG-9587_remove_ui_refresh_feature_flag
+ 2786  git checkout ticket/SG-9587_remove_ui_refresh_feature_flag
+ 2787  git pull origin ticket/SG-9587_remove_ui_refresh_feature_flag 
+ 2788  git checkout --track origin/ticket/SG-10385_remove_ui_refresh_feature_flag_scss_integration
+ 2789  git pull origin ticket/SG-10385_remove_ui_refresh_feature_flag_scss_integration
+ 2790  git checkout master 
+ 2791  git checkout -b UI_REFRESH_REMOVE_2
+ 2792  git merge ticket/SG-9587_remove_ui_refresh_feature_flag 
+ 2793  git status
+ 2794  git push origin UI_REFRESH_REMOVE_2 
+ 2795  git merge ticket/SG-10385_remove_ui_refresh_feature_flag_scss_integration 
+ 2796  git push origin UI_REFRESH_REMOVE_2 
+ 2797  dc exec app npm run watch
+ 2798  history | grep npx
+ 2799  npx karma start test/javascript/classic/karma.conf.js --with-coverage
+ 2800  dc exec app npm run test:new --watch
+ 2801  dc exec app npm run test:new
+ 2802  history | grep app
+ 2803  dc run --rm app bash
+ 2804  docker-compose run --rm app bash
+ 2805  npx karma start test/javascript/classic/karma.conf.js --with-coverage
+ 2806  docker-compose run --rm app bash
+ 2807  dc exec app npm run dev
+ 2808  history | grep karma
+ 2809  docker-compose exec app npm run dev
+ 2810  npx karma start test/javascript/classic/karma.conf.js --with-coverage
+ 2811  docker-compose run --rm app bash
+ 2812  dc-refresh
+ 2813  docker-compose exec app npm run dev
+ 2814  dc exec app npm run watch
+ 2815  dc-refresh
+ 2816  history | grep npx
+ 2817  npx karma start test/javascript/classic/karma.conf.js --with-coverage
+ 2818  docker-compose run --rm app bash
+ 2819  npx karma start test/javascript/classic/karma.conf.js --with-coverage
+ 2820  dc-refresh
+ 2821  dc exec app npm run watch
+ 2822  dc exec app npm run dev
+ 2823  git revert efbc4c3930518c71e983aebc54106586f48d7636
+ 2824  docker-compose run --rm app bash
+ 2825  dc-refresh
+ 2826  dc exec app npm run watch
+ 2827  dc exec app npm run dev
+ 2828  docker-compose run --rm app bash
+ 2829  dc-refresh
+ 2830  dc exec app npm run watch
+ 2831  dc exec app npm run dev
+ 2832  docker-compose run --rm app bash
+ 2833  git checkout ticket/SG-9587_remove_ui_refresh_feature_flag 
+ 2834  git pull origin ticket/SG-9587_remove_ui_refresh_feature_flag
+ 2835  git checkout ticket/SG-10385_remove_ui_refresh_feature_flag_scss
+ 2836  git pull origin ticket/SG-10385_remove_ui_refresh_feature_flag_scss
+ 2837  git checkout UI_REFRESH_REMOVE_2 
+ 2838  git merge ticket/SG-9587_remove_ui_refresh_feature_flag
+ 2839  git merge ticket/SG-10385_remove_ui_refresh_feature_flag_scss
+ 2840  code .
+ 2841  git add .
+ 2842  git commit
+ 2843  git push origin UI_REFRESH_REMOVE_2 
+ 2844  docker-compose run --rm app bash
+ 2845  dc-refresh
+ 2846  dc exec app npm run dev
+ 2847  dc exec app npm run watch
+ 2848  docker-compose run --rm app bash
+ 2849  git status
+ 2850  git checkout master
+ 2851  git pull origin master 
+ 2852  git checkout -b ticket/updating_css_docs
+ 2853  git checkout master
+ 2854  git pull origin master
+ 2855  git checkout origin/UI_REFRESH_REMOVE_2 
+ 2856  git checkout -b origin/UI_REFRESH_REMOVE_2 
+ 2857  git checkout --track origin/UI_REFRESH_REMOVE_2  
+ 2858  dc-refresh
+ 2859  dc exec app npm run dev
+ 2860  dc exec app npm run watch
+ 2861  docker-compose run --rm app bash
+ 2862  dc exec app npm run dev
+ 2863  dc exec app npm run watch
+ 2864  dc exec app npm rebuild node-sass --force
+ 2865  dc exec app npm run watch
+ 2866  git checkout origin/ticket/SG-10385_remove_ui_refresh_feature_flag_scss -- public/stylesheets/icon_image_map.css
+ 2867  ./script/make_icon_image_map.py
+ 2868  dc-refresh
+ 2869  dc exec app npm run dev
+ 2870  dc exec app npm run watch
+ 2871  dc-refresh
+ 2872  dc exec app npm run dev
+ 2873  dc exec app npm run watch
+ 2874  docker-compose run --rm app bash
+ 2875  history | grep passenger
+ 2876  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2877  dc exec app npm run watch
+ 2878  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2879  docker-compose run --rm app bash
+ 2880  git log
+ 2881  git revert ad93e9f9478e36b27c128a73bd38a4488a3cf731
+ 2882  dc-refresh
+ 2883  dc exec app npm run dev
+ 2884  dc exec app npm run watch
+ 2885  docker-compose run --rm app bash
+ 2886  dc-refresh
+ 2887  docker-compose run --rm app bash
+ 2888  dc-refresh
+ 2889  dc exec app npm run dev
+ 2890  dc exec app npm run watch
+ 2891  git checkout --track origin/ticket/SG-10385_remove_ui_refresh_feature_flag_scss_integration
+ 2892  dc-refresh
+ 2893  dc exec app npm run dev
+ 2894  dc exec app npm run watch
+ 2895  dc-refresh
+ 2896  dc exec app npm run dev
+ 2897  dc exec app npm run watch
+ 2898  dc-refresh
+ 2899  dc exec app npm run dev
+ 2900  dc exec app npm run watch
+ 2901  dc-refresh
+ 2902  dc exec app npm run dev
+ 2903  dc exec app npm run watch
+ 2904  docker-compose run --rm app bash
+ 2905  dc-refresh
+ 2906  docker-compose run --rm app bash
+ 2907  dc exec app npm run dev
+ 2908  dc exec app npm run watch
+ 2909  dc exec app npm run dev
+ 2910  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3000/user/login'
+ 2911  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:300`/user/login'
+ 2912  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+ 2913  git checkout master
+ 2914  git pull origin master
+ 2915  git fetch
+ 2916  git checkout --track origin/release/8.1.1.0 
+ 2917  git checkout -b ticket/SG-10714_checkbox_image_8_1_1
+ 2918  git cherry-pick d10ddb787c12b1325eff9888646a73eb9c27b3dd
+ 2919  git cherry-pick 3d74486787dbd6fb93ff0393357685b730e330b1
+ 2920  git push origin ticket/SG-10714_checkbox_image_8_1_1 
+ 2921  dc-refresh
+ 2922  dc exec app npm run dev
+ 2923  dc exec app npm run watch
+ 2924  git branch -m css_var_mixins_tech_debt
+ 2925  git branch -m ticket/SG-9588_css_var_mixins_tech_debt
+ 2926  git log
+ 2927  git status
+ 2928  git reflog
+ 2929  git push origin :ticket/SG-9587_B_revising_css_var ticket/SG-9588_css_var_mixins_tech_debt
+ 2930  git push origin -u ticket/SG-9588_css_var_mixins_tech_debt
+ 2931  git checkout --track origin/ticket/SG-9587_B_revising_css_var
+ 2932  dc-refresh
+ 2933  docker-compose run —rm app bash
+ 2934  dc run —rm app bash
+ 2935  dc run --rm app bash
+ 2936  history | grep passenger
+ 2937  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 2938  dc run --rm app bash
+ 2939  dc exec app npm run dev
+ 2940  dc exec app npm run watch
+ 2941  dc-refresh
+ 2942  dc exec app npm run dev
+ 2943  dc exec app npm run watch
+ 2944  bin/update_sgds.py
+ 2945  dc exec app npm run dev
+ 2946  bin/update_sgds.py
+ 2947  dc exec app npm run watch
+ 2948  dc run --rm app bash
+ 2949  dc-refresh
+ 2950  dc exec app npm run watch
+ 2951  dc exec app npm run dev
+ 2952  docker-compose exec app npm run dev
+ 2953  bin/update_sgds.py
+ 2954  dc exec app npm run watch
+ 2955  dc exec app npm run dev
+ 2956  ruby -v
+ 2957  gem install ruby-debug-ide
+ 2958  gem install debase
+ 2959  ruby -v
+ 2960  rvm install "ruby-2.3.1"
+ 2961  rails server
+ 2962  git remote -v
+ 2963  git add .
+ 2964  git commit -m "update docs"
+ 2965  git push origin III_Models_migrations 
+ 2966  npm install -g prettier
+ 2967  /usr/local/lib/node_modules/
+ 2968  ls
+ 2969  cd n
+ 2970  ls
+ 2971  cd bin
+ 2972  ls
+ 2973  cd n
+ 2974  ls
+ 2975  cd ..
+ 2976  ls
+ 2977  cd npm
+ 2978  ls
+ 2979  cd bin
+ 2980  ;s
+ 2981  ls
+ 2982  npm list -g
+ 2983  cd ..
+ 2984  ls
+ 2985  cd ..
+ 2986  ls
+ 2987  ls n*
+ 2988  ls -la
+ 2989  cd node_modules
+ 2990  ls
+ 2991  npm install -g prettier
+ 2992  ls
+ 2993  npm list -g
+ 2994  npm list -g | less
+ 2995  /usr/local
+ 2996  ls
+ 2997  locate prettier
+ 2998  locate prettier | lse
+ 2999  locate prettier | less
+ 3000  npm root -g
+ 3001  /usr/local/Cellar/node/10.8.0/lib/node_modules
+ 3002  ls
+ 3003  cd prettier
+ 3004  $PATH
+ 3005  echo $PATH
+ 3006  export PATH=$PATH:/usr/local/Cellar/node/10.8.0/lib/node_modules
+ 3007  echo $PATH
+ 3008  prettier
+ 3009  sudo prettier
+ 3010  prettier
+ 3011  cd ..
+ 3012  ls
+ 3013  cd prettier
+ 3014  ls
+ 3015  cd ..
+ 3016  cd .bin
+ 3017  cd ..
+ 3018  ls
+ 3019  cd ..
+ 3020  ls
+ 3021  cd bin
+ 3022  ls
+ 3023  prettier
+ 3024  prettier --write '**/*.{rb,rake}'
+ 3025  npm config get prefix
+ 3026  npm update npm -g
+ 3027  npx
+ 3028  cd ..
+ 3029  npx
+ 3030  npx prettier
+ 3031  npx prettier --write '**/*.{rb,rake}'
+ 3032  rake routes
+ 3033  history | grep ruby
+ 3034  rvm install "ruby-2.3.8"
+ 3035  ruby -v
+ 3036  rake routes
+ 3037  rails console
+ 3038  rails c
+ 3039  ruby -v
+ 3040  rvm install "ruby-2.3.8"
+ 3041  rails c
+ 3042  rails s
+ 3043  rvm install "ruby-2.3.8"
+ 3044  rails s
+ 3045  git add .
+ 3046  git commit -m "some revisions"
+ 3047  git push origin III_Models_migrations 
+ 3048  git branch
+ 3049  git checkout -b IV_Action_Mailer
+ 3050  git log
+ 3051  rails c
+ 3052  rvm install "ruby-2.3.8"
+ 3053  rails c
+ 3054  git status
+ 3055  git add .
+ 3056  git commit -m "display message when array empty"
+ 3057  git push origin IV_Action_Mailer 
+ 3058  git add .
+ 3059  git commit -m "keep last user email in session"
+ 3060  git push origin IV_Action_Mailer 
+ 3061  rvm install "ruby-2.3.8"
+ 3062  rails g mailer main_mailer notify_question_author
+ 3063  rails routes
+ 3064  rake test
+ 3065  rvm install "ruby-2.3.8"
+ 3066  rake test
+ 3067  rvm install "ruby-2.3.8"
+ 3068  rails s
+ 3069  git status
+ 3070  git log
+ 3071  rake test
+ 3072  rvm install "ruby-2.3.8"
+ 3073  rake test
+ 3074  gem install ruby-debug
+ 3075  gem install byebug
+ 3076  rake test
+ 3077  gem install guard-rake
+ 3078  gem 'guard-rake'
+ 3079  bundle
+ 3080  bundle exec guard init
+ 3081  bundle exec guard
+ 3082  gem 'guard-rake'
+ 3083  guard init rake
+ 3084  bundle exec guard
+ 3085  gem install guard-rake
+ 3086  bundle exec guard
+ 3087  rake test
+ 3088  rvm install "ruby-2.3.8"
+ 3089  rake test
+ 3090  git add .
+ 3091  git commit -m "email tests"
+ 3092  git push origin IV_Action_Mailer 
+ 3093  rails s
+ 3094  rvm install "ruby-2.3.8"
+ 3095  rails s
+ 3096  git add
+ 3097  rails c
+ 3098  rails s
+ 3099  git add .
+ 3100  git commit -m "email previews"
+ 3101  git push origin IV_Action_Mailer 
+ 3102  git status
+ 3103  gem 'sucker punch'
+ 3104  bundle
+ 3105  rails s
+ 3106  git add .
+ 3107  git commit -m "dont block UI on a slow process using ActiveJob and sucker-punch adapter"
+ 3108  git push
+ 3109  git push origin IV_Action_Mailer
+ 3110  gem install rcodetools
+ 3111  git status
+ 3112  git add .
+ 3113  git commit -m ".idea"
+ 3114  git push origin IV_Action_Mailer 
+ 3115  git checkout -b V_Assets_pipeline
+ 3116  git add .
+ 3117  git commit -m "css"
+ 3118  rails server -e production
+ 3119  tail -f log/production.log
+ 3120  rails server -e production
+ 3121  rails credentials:edit
+ 3122  rails -v
+ 3123  bin/rails credentials:edit
+ 3124  EDITOR="code --wait" bin/rails credentials:edit
+ 3125  EDITOR=vim rails credentials:edit
+ 3126  rails server -e production
+ 3127  cp db/development.sqlite3 db/production.sqlite3
+ 3128  rails server -e production
+ 3129  cp db/development.sqlite3 db/production.sqlite3
+ 3130  rails server -e production
+ 3131  tail -f log/production.log
+ 3132  export RAILS_SERVE_STATIC_FILES=true
+ 3133  rake assets:precompile
+ 3134  rails server -e production
+ 3135  RAILS_ENV=production rake assets:precompile
+ 3136  rails server -e production
+ 3137  git add .
+ 3138  git commit -m "changes for prod"
+ 3139  git push origin V_Assets_pipeline 
+ 3140  tail -f log/production.log
+ 3141  rails server -e production
+ 3142  rails server
+ 3143  git status
+ 3144  git add .
+ 3145  git commit -m "css stuff"
+ 3146  git push origin V_Assets_pipeline 
+ 3147  git checkout -b VI_deployment
+ 3148  brew tap heroku/brew && brew install heroku
+ 3149  heroku
+ 3150  heroku login
+ 3151  heroku create
+ 3152  git remote -v
+ 3153  git status
+ 3154  bundle
+ 3155  rvm install "ruby-2.3.8"
+ 3156  bundle
+ 3157  git add .
+ 3158  git commit -m "deploy to heroku"
+ 3159  git push heroku master
+ 3160  bundle
+ 3161  rvm install "ruby-2.5.3"
+ 3162  bundle
+ 3163  git push heroku master
+ 3164  rvm install "ruby-2.5.3"
+ 3165  git push heroku master
+ 3166  ruby -v
+ 3167  git push heroku master
+ 3168  rails s
+ 3169  heroku config:add BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-nodejs
+ 3170  git commit -am "empty" --allow-empty
+ 3171  git push heroku master
+ 3172  heroku run rake db:migrate
+ 3173  heroku run bash
+ 3174  rails s
+ 3175  rvm install "ruby-2.5.3"
+ 3176  rails s
+ 3177  rails server -e production
+ 3178  rails s
+ 3179  git push heroku master
+ 3180  heroku run rake db:migrate
+ 3181  heroku buildpacks:set https://github.com/heroku/heroku-buildpack-ruby.git
+ 3182  bundle
+ 3183  heroku run rake db:migrate
+ 3184  bundle update
+ 3185  heroku run rake db:migrate
+ 3186  git add .
+ 3187  git commit -m "gems update"
+ 3188  git push origin VI_deployment 
+ 3189  git checkout master 
+ 3190  git merge VI_deployment 
+ 3191  git push origin master
+ 3192  git push heroku master
+ 3193  heroku run rake db:migrate
+ 3194  bundle
+ 3195  git diff
+ 3196  git add .
+ 3197  git commit -m "sql3"
+ 3198  git push origin master 
+ 3199  git push heroku master
+ 3200  git add .
+ 3201  git commit -m "remove sql3"
+ 3202  git push heroku master
+ 3203  heroku run rake db:migrate
+ 3204  dc-refresh
+ 3205  git cherry-pick
+ 3206  git cherry-pick dea827cadd63543ccd99d4da0c0da3612943ae3a
+ 3207  git cherry-pick a68393bdd2a3354bb268ca9e317fc99adedef548
+ 3208  git cherry-pick ded80c56e3c89af5abaf54d3442137b4d3397c19
+ 3209  git cherry-pick 16305c89ec9a1d26b038ca726911da09f2557926
+ 3210  git cherry-pick 287e53905108a83b5ccd0e12bac36223e8213544
+ 3211  git cherry-pick 32fc8b4d67b64f511d709b582080e686d2642888
+ 3212  git cherry-pick
+ 3213  git cherry-pick 20cb58486197ee1d7ea758a1cd854d8f7587e55d
+ 3214  git cherry-pick 07d6fa2eb310872d046731333ebfe5044170a28c
+ 3215  git cherry-pick 7dac38bd48e8cd11b80adef5587a4411d12f6266
+ 3216  git cherry-pick 5e5509720e7842deb1b8e79620dd7062d19f5368
+ 3217  git add .
+ 3218  git commit
+ 3219  git cherry-pick
+ 3220  git cherry-pick 8213433f050229a74104cd64a6e4d31acb58bbb7
+ 3221  git cherry-pick 65b613978b93fc80ea572190287128217964d25b
+ 3222  git cherry-pick 8ec87e35ee22b8a002ff5f2b61aea004ebfacc05
+ 3223  git cherry-pick c4d67771840b0f3f29363588d0c10712abf70a00
+ 3224  git cherry-pick 08ec5b2328d17e08d990190fc2b4f6c7c6abc461
+ 3225  git add .
+ 3226  git commit
+ 3227  git log
+ 3228  git cherry-pick 08ec5b2328d17e08d990190fc2b4f6c7c6abc461
+ 3229  git cherry-pick 84a92c47a91c3bee81e45eb2f97afcee3d462659
+ 3230  git push origin ticket/SG-9588_css_var_tech_debt
+ 3231  dc-refresh
+ 3232  dc exec app npm run watch
+ 3233  dc exec app npm run dev
+ 3234  docker-compose run --rm app bash
+ 3235  dc exec app npm run dev
+ 3236  docker-compose exec app npm run dev
+ 3237  dc-refresh
+ 3238  dc exec app npm run watch
+ 3239  dc exec app npm run dev
+ 3240  source ~/.zshrc
+ 3241  dc exec app npm run dev
+ 3242  bin/update_sgds.py
+ 3243  dc exec app npm run watch
+ 3244  dc exec app npm run dev
+ 3245  bin/update_sgds.py
+ 3246  docker-compose run --rm app bash
+ 3247  dc exec app npm run watch
+ 3248  dc exec app npm run dev
+ 3249  dc-refresh
+ 3250  dc exec app npm run dev
+ 3251  dc exec app npm run watch
+ 3252  dc-refresh
+ 3253  dc exec app npm run dev
+ 3254  dc exec app npm run watch
+ 3255  docker-compose run --rm app bash
+ 3256  tail -f /var/rails/shotgun/current/log/production.log
+ 3257  ls
+ 3258  tail -f log/production.log
+ 3259  docker-compose logs -f --tail=10 app | grep ERROR
+ 3260  docker-compose logs -f --tail=10 app
+ 3261  docker-compose logs -f --tail=10 app | grep error
+ 3262  docker-compose logs -f --tail=10 app | grep -i error
+ 3263  docker-compose logs -f --tail=10 app | grep -i department
+ 3264  docker-compose logs -f --tail=10 app | grep -iE "department|lenny"
+ 3265  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 3266  sudo nano ~/.zshrc
+ 3267  source ~/.zshrc
+ 3268  dc-restart
+ 3269  docker-compose logs -f --tail=10 app | grep -iE "department|lenny"
+ 3270  source ~/.zshrc
+ 3271  dc-restart
+ 3272  dc exec app bash
+ 3273  docker-compose exec app bash
+ 3274  dc-restart
+ 3275  source ~/.zshrc
+ 3276  docker-compose run --rm app bash
+ 3277  docker-compose exec app bash
+ 3278  dc up app
+ 3279  source ~/.zshrc
+ 3280  dc up app
+ 3281  dc-restart
+ 3282  docker-compose logs -f --tail=10 app | grep -iE "department|lenny"
+ 3283  docker-compose exec app bash
+ 3284  dc-restart
+ 3285  source ~/.zshrc
+ 3286  docker-compose run --rm app bash
+ 3287  dc-restart
+ 3288  docker-compose exec app bash
+ 3289  git checkout --track origin/release/8.1.2.0
+ 3290  dc-refresh
+ 3291  docker-compose run --rm app bash
+ 3292  dc exec app npm run dev
+ 3293  dc exec app npm run watch
+ 3294  docker-compose run --rm app bash
+ 3295  dc-refresh
+ 3296  dc exec app npm run dev
+ 3297  dc exec app npm run watch
+ 3298  docker-compose run --rm app bash
+ 3299  bin/update_sgds.py
+ 3300  dc exec app npm run dev
+ 3301  bin/update_sgds.py
+ 3302  ./bin/utilities/js_to_sass_utilities.js
+ 3303  sudo ./bin/utilities/js_to_sass_utilities.js
+ 3304  bin/update_sgds.py
+ 3305  dc exec app npm run dev
+ 3306  dc exec app npm run watch
+ 3307  dc up app
+ 3308  dc exec app npm run dev
+ 3309  dc-refresh
+ 3310  dc exec app npm run dev
+ 3311  dc exec app npm run watch
+ 3312  bin/update_sgds.py
+ 3313  docker-compose run --rm app bash
+ 3314  dc-refresh
+ 3315  dc exec app npm run dev
+ 3316  dc exec app npm run watch
+ 3317  docker-compose run --rm app bash
+ 3318  dc exec app npm run dev
+ 3319  dc-restart
+ 3320  dc exec app npm run dev
+ 3321  dc exec app npm run watch
+ 3322  bin/update_sgds.py
+ 3323  docker-compose run --rm app bash
+ 3324  dc exec app npm run watch
+ 3325  bin/update_sgds.py
+ 3326  dc-refresh
+ 3327  dc exec app npm run watch
+ 3328  bin/update_sgds.py
+ 3329  docker-compose run --rm app bash
+ 3330  git clean -df
+ 3331  git checkout origin/master -- web_modules
+ 3332  git checkout origin/master -- public/images/sgds
+ 3333  bin/update_sgds.py
+ 3334  git clean -df
+ 3335  git reset --hard
+ 3336  bin/update_sgds.py
+ 3337  git clean -df
+ 3338  git reset --hard
+ 3339  bin/update_sgds.py
+ 3340  git clean -df
+ 3341  git reset --hard
+ 3342  bin/update_sgds.py
+ 3343  git clean -df
+ 3344  dc-refresh
+ 3345  docker-compose run --rm app bash
+ 3346  cat /etc/hosts
+ 3347  dc exec app npm run watch
+ 3348  docker-compose run --rm app bash
+ 3349  dc-refresh
+ 3350  dc up app
+ 3351  docker-compose run --rm app bash
+ 3352  dc exec app npm run dev
+ 3353  dc exec app npm run watch
+ 3354  docker-compose run --rm app bash
+ 3355  dc exec app npm run dev
+ 3356  docker-compose run --rm app script/console
+ 3357  docker-compose run --rm app bash
+ 3358  docker-compose exec app bash
+ 3359  docker-compose run --rm app bash
+ 3360  dc exec app npm run dev
+ 3361  dc exec app npm run watch
+ 3362  node -v
+ 3363  dc exec app npm run dev
+ 3364  docker-compose exec app bash
+ 3365  dc-restart
+ 3366  docker-compose run --rm app bash
+ 3367  gem install rufo
+ 3368  gem install rubocop
+ 3369  dc-restart
+ 3370  /Users/dimanal/docker4/shotgun/.rubocop_shotgun_relaxed.yml
+ 3371  dc-restart
+ 3372  dc exec app npm run dev
+ 3373  dc exec app npm run watch
+ 3374  dc-restart
+ 3375  dc up app -d
+ 3376  dc up app
+ 3377  dc exec app npm run watch
+ 3378  dc-refresh
+ 3379  dc exec app npm run watch
+ 3380  dc-restart
+ 3381  history | grep passenger
+ 3382  docker-compose exec app passenger-config restart-app /var/rails/shotgun/
+ 3383  dc-restart
+ 3384  docker-compose exec app bash
+ 3385  dc-restart
+ 3386  dc-refresh
+ 3387  dc-restart
+ 3388  dc-refresh
+ 3389  dc exec app npm run watch
+ 3390  dc exec app npm run dev
+ 3391  dc-restart
+ 3392  docker-compose exec app bash
+ 3393  dc-restart
+ 3394  dc exec app npm run watch
+ 3395  dc exec app npm run dev
+ 3396  npm login --registry https://art-bobcat.autodesk.com:443/artifactory/api/npm/team-shotgun-npm-virtual/ --scope @sgds --always-auth --username="dimanal"
+ 3397  docker-compose exec app bash
+ 3398  docker-compose run --rm app bash
+ 3399  bin/update_sgds.py
+ 3400  dc-refresh
+ 3401  docker-compose run --rm app bash
+ 3402  dc exec app npm run dev
+ 3403  dc exec app npm run watch
+ 3404  dc up app
+ 3405  git checkout --track origin/ticket/SG-9917_Add_Padding_to_Table_Cells
+ 3406  dc-refresh
+ 3407  git checkout master
+ 3408  git pull origin master
+ 3409  dc-refresh
+ 3410  dc exec app npm run dev
+ 3411  dc exec app npm run watch
+ 3412  bin/update_sgds.py
+ 3413  git checkout origin/master -- .
+ 3414  git clean -df
+ 3415  cat ~/.zshrc
+ 3416  dc-refresh
+ 3417  dc exec app npm run dev
+ 3418  dc exec app npm run watch
+ 3419  bin/update_sgds.py
+ 3420  dc exec app npm run watch
+ 3421  dc-refresh
+ 3422  dc exec app npm run dev
+ 3423  dc exec app npm run watch
+ 3424  bin/update_sgds.py
+ 3425  dc-refresh
+ 3426  dc exec app npm run dev
+ 3427  dc exec app npm run watch
+ 3428  docker-compose run --rm app bash
+ 3429  dc-refresh
+ 3430  dc exec app npm run dev
+ 3431  dc exec app npm run watch
+ 3432  docker-compose run --rm app bash
+ 3433  dc exec app npm run dev
+ 3434  dc exec app npm run watch
+ 3435  dc exec app npm run dev
+ 3436  dc-refresh
+ 3437  npm install cypress --silent
+ 3438  docker-compose run --rm app bash
+ 3439  npm install cypress pluralize to-snake-case --silent 
+ 3440  dc exec app npm run watch
+ 3441  dc exec app npm run dev
+ 3442  dc exec app npm run build_css
+ 3443  CYPRESS_QA_SG_SITE=http://localhost:8888
+ 3444  CYPRESS_QA_SG_PSSWRD=Admin.12345
+ 3445  CYPRESS_QA_SG_
+ 3446  CYPRESS_QA_SG_PSSWRD
+ 3447  CYPRESS_QA_SG_PSSWR
+ 3448  CYPRESS_QA_SG_PSSWRD
+ 3449  echo CYPRESS_QA_SG_PSSWRD
+ 3450  echo $CYPRESS_QA_SG_PSSWRD
+ 3451  cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3452  npx run cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3453  npm install cypress pluralize to-snake-case --silent --global
+ 3454  cypress
+ 3455  cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3456  sudo cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3457  node_modules/.bin/cypress
+ 3458  node_modules/.bin/cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3459  docker-compose -f docker-compose.ci.yml run --rm e2e cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3460  cypress
+ 3461  node_modules/.bin/cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3462  docker-compose -f docker-compose.ci.yml run --rm e2e cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3463  docker run --ipc=host
+ 3464  docker-compose -f docker-compose.ci.yml run --rm e2e cypress run -s '/mnt/cypress/integration/bat/*.spec.js' --ipc=host
+ 3465  docker-compose -f docker-compose.ci.yml run --rm e2e cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3466  node_modules/.bin/cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3467  touch cypress.json
+ 3468  node_modules/.bin/cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3469  docker-compose run --rm app bash
+ 3470  node_modules/.bin/cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3471  cat ~/.zshrc
+ 3472  docker-compose up app\n\n
+ 3473  docker-compose -f docker-compose.ci.yml run --rm e2e cypress run -s '/mnt/cypress/integration/bat/*.spec.js'
+ 3474  docker-compose run --rm app bash
+ 3475  docker-compose run --rm --entrypoint bash app
+ 3476  npm install cypress --global
+ 3477  cypress verify
+ 3478  sudo cypress verify
+ 3479  cypress 
+ 3480  node_modules/.bin/cypress
+ 3481  node_modules/.bin/cypress verify
+ 3482  node_modules/.bin/cypress run -s e2e/cypress/integration/bat/login_spec.js
+ 3483  cd test
+ 3484  cd cypress
+ 3485  node_modules/.bin/cypress run -s e2e/cypress/integration/bat/login_spec.js
+ 3486  ../../node_modules/.bin/cypress run -s e2e/cypress/integration/bat/login_spec.js
+ 3487  ls
+ 3488  ../../node_modules/.bin/cypress run -s integration/bat/login_spec.js
+ 3489  ../../node_modules/.bin/cypress run -s integration/*.spec.js
+ 3490  ls
+ 3491  cd integration/test_templates
+ 3492  ls
+ 3493  cd ..
+ 3494  ../../node_modules/.bin/cypress run -s ../../test/e2e/cypress/integration/bat/login.spec.js
+ 3495  cd ..
+ 3496  ls
+ 3497  cypress
+ 3498  cd ..
+ 3499  ls
+ 3500  ls -la
+ 3501  cd cypress
+ 3502  cypress run -s e2e/cypress/integration/bat/login_spec.js
+ 3503  ../../node_modules/.bin/cypress run 
+ 3504  ../../node_modules/.bin/cypress run -s ../e2e/cypress/integration/bat/login.spec.js 
+ 3505  ls
+ 3506  cypress run -s 'e2e/cypress/integration/bat/*_spec.js'
+ 3507  ../../node_modules/.bin/cypress run -s 'e2e/cypress/integration/bat/*_spec.js'
+ 3508  ls
+ 3509  ../../node_modules/.bin/cypress run -s '../e2e/cypress/integration/bat/*_spec.js'
+ 3510  cd ..
+ 3511  ls
+ 3512  cd e2e
+ 3513  ls
+ 3514  ../../node_modules/.bin/cypress run -s 'cypress/integration/bat/*_spec.js'
+ 3515  cd cypress/integration/bat
+ 3516  ls
+ 3517  ../../../../../node_modules/.bin/cypress run -s login.spec.js
+ 3518  cd ../../../
+ 3519  ;s
+ 3520  ls
+ 3521  ../../node_modules/.bin/cypress run
+ 3522  export CYPRESS_QA_SG_PSSWRD=Admin.12345
+ 3523  export CYPRESS_QA_SG_SITE=http://localhost:8888
+ 3524  ../../node_modules/.bin/cypress run
+ 3525  docker-compose -f docker-compose.ci.yml build
+ 3526  cd ../../
+ 3527  docker-compose -f docker-compose.ci.yml build
+ 3528  docker-compose -f docker-compose.ci.yml run --rm e2e cypress run -s '/mnt/cypress/integration/bat/*.spec.js' --env CI=true
+ 3529  /mnt/cypress/videos/bat/user_specific.spec.js.mp4
+ 3530  mnthome
+ 3531  docker-compose run --rm app bash
+ 3532  docker-compose -f docker-compose.ci.yml up app -d
+ 3533  docker-compose -f docker-compose.ci.yml up app
+ 3534  cd test/e2e
+ 3535  cypress run -s './cypress/integration/bat/*.spec.js'
+ 3536  ../../node_modules/.bin/cypress run -s './cypress/integration/bat/*.spec.js'
+ 3537  export CYPRESS_QA_SG_SITE=http://localhost:8888
+ 3538  export CYPRESS_QA_SG_PSSWRD=Admin.12345
+ 3539  ../../node_modules/.bin/cypress run -s './cypress/integration/bat/*.spec.js'
+ 3540  dc-refresh
+ 3541  dc exec app npm run dev
+ 3542  dc exec app npm run watch
+ 3543  dc exec app npm run dev
+ 3544  dc exec app npm run watch
+ 3545  docker-compose run --rm app bash
+ 3546  dc-restart
+ 3547  dc exec app npm run watch
+ 3548  dc exec app npm run dev
+ 3549  docker-compose run --rm app bash
+ 3550  python
+ 3551  cd ../
+ 3552  cd lenny_python
+ 3553  python p1.py
+ 3554  ping http://vm.shotgun.local
+ 3555  ping http://localhost:3001
+ 3556  ping http://localhost:3000
+ 3557  ping http://localhost:8888
+ 3558  ping http://0.0.0.0
+ 3559  cat /etc/hosts
+ 3560  ping 127.0.0.1
+ 3561  ping http://127.0.0.1
+ 3562  ping http://127.0.0.1:3000
+ 3563  ping http://127.0.0.1:80
+ 3564  ping http://127.0.0.1
+ 3565  ping http://localhost:8888
+ 3566  ping http://localhost:3001
+ 3567  ping https://localhost:3001
+ 3568  ping http://localhost:3001
+ 3569  ping localhost:8888
+ 3570  ping http://localhost:8888
+ 3571  ping google.com
+ 3572  ping http://localhost:3001/
+ 3573  ping http://localhost:3001
+ 3574  sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+ 3575  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+ 3576  ping http://localhost:3001
+ 3577  scutil --dns
+ 3578  scutil -r hostname
+ 3579  scutil -r localhost:3001
+ 3580  atom /etc/hosts
+ 3581  ping http://localhost:3001
+ 3582  history | grep karma
+ 3583  python
+ 3584  python p10.py
+ 3585  docker-compose run --rm app bash
+ 3586  cd ../../lenny_python
+ 3587  docker-compose run --rm app bash
+ 3588  python p10.py
+ 3589  bin/update_sgds.py
+ 3590  git status
+ 3591  git stash
+ 3592  git clean -df
+ 3593  git status
+ 3594  bin/update_sgds.py
+ 3595  git status
+ 3596  git add web_modules
+ 3597  git status
+ 3598  git commit -m "web_modules updates"
+ 3599  git push origin fix_update_sgds_diff_master_2 
+ 3600  git add *.svg
+ 3601  git add "*.svg"
+ 3602  git status
+ 3603  git reset
+ 3604  git status
+ 3605  git stash
+ 3606  git clean -df
+ 3607  docker-compose -f docker-compose.ci.yml up app
+ 3608  cd ../../
+ 3609  docker-compose -f docker-compose.ci.yml up app
+ 3610  export CYPRESS_QA_SG_SITE=http://localhost:8888
+ 3611  export CYPRESS_QA_SG_PSSWRD=Admin.12345
+ 3612  ../../node_modules/.bin/cypress run -s './cypress/integration/bat/*.spec.js'
+ 3613  dc down -v
+ 3614  docker-compose -f docker-compose.ci.yml up app
+ 3615  echo $CYPRESS_QA_SG_PSSWRD
+ 3616  ../../node_modules/.bin/cypress run -s './cypress/integration/bat/*.spec.js'
+ 3617  docker-compose -f docker-compose.ci.yml up app
+ 3618  ../../node_modules/.bin/cypress run -s './cypress/integration/bat/*.spec.js'
+ 3619  dc-refresh
+ 3620  dc exec app npm run dev
+ 3621  dc exec app npm run watch
+ 3622  dc exec app npm run dev
+ 3623  dc run --rm app bash
+ 3624  python
+ 3625  docker-compose run --rm app bash
+ 3626  docker-compose exec app bash
+ 3627  dc-restart
+ 3628  docker-compose exec app bash
+ 3629  tail -f /var/rails/shotgun/current/log/production.log | grep LENNY
+ 3630  dc exec app bash
+ 3631  docker-compose run --rm app bash
+ 3632  dc up app
+ 3633  dc-refresh
+ 3634  dc exec app npm run watch
+ 3635  dc exec app npm run dev
+ 3636  dc exec app npm run watch
+ 3637  dc exec app npm run dev
+ 3638  dc-refresh
+ 3639  dc exec app npm run dev
+ 3640  dc exec app npm run watch
+ 3641  docker-compose run --rm app bash
+ 3642  dc run --rm app bash
+ 3643  docker-compose exec app bash
+ 3644  docker-compose run --rm app bash
+ 3645  dc run --rm app bash
+ 3646  rvm list
+ 3647  which rubocop
+ 3648  $HOME
+ 3649  echo $HOME
+ 3650  dc-refresh
+ 3651  dc exec app npm run watch
+ 3652  dc exec app npm run dev
+ 3653  dc-restart
+ 3654  docker-compose run --rm app bash
+ 3655  git revert b401eebb997bbfcdd57281db69f4ccf9af06becf
+ 3656  git status
+ 3657  docker-compose exec app bash
+ 3658  docker-compose run --rm app bash
+ 3659  dc exec app npm run dev
+ 3660  dc exec app npm run watch
+ 3661  dc-restart
+ 3662  dc exec app npm run dev
+ 3663  dc-restart
+ 3664  gem install rufo
+ 3665  gem install rufo -v 0.5.1
+ 3666  gem install bundler -v 1.17.3
+ 3667  gem update --system
+ 3668  rm Gemfile.lock
+ 3669  bundle install
+ 3670  dc-restart
+ 3671  dc-refresh
+ 3672  dc-restart
+ 3673  dc up app
+ 3674  docker-compose exec app bash
+ 3675  dc-refresh
+ 3676  dc exec app npm run watch
+ 3677  dc exec app npm run dev
+ 3678  dc-restart
+ 3679  docker-compose exec app bash
+ 3680  docker-compose run --rm app bash
+ 3681  dc-restart
+ 3682  dc-refresh
+ 3683  dc exec app npm run dev
+ 3684  dc exec app npm run watch
+ 3685  dc-restart
+ 3686  script/make_icon_image_map.py
+ 3687  dc exec app npm run dev
+ 3688  script/i18n/shotgun_pt.rb
+ 3689  git checkout --track feature/permission_export_import
+ 3690  git checkout --track origin/feature/permission_export_import
+ 3691  git checkout -b ticket/SG-10989_import_permissions
+ 3692  dc-restart
+ 3693  docker-compose exec app bash
+ 3694  dc exec app npm run dev
+ 3695  dc exec app npm run watch
+ 3696  dc-restart
+ 3697  dc exec app npm run dev
+ 3698  dc exec app npm run watch
+ 3699  script/i18n/shotgun_pt.rb
+ 3700  dc-refresh
+ 3701  dc exec app npm run dev
+ 3702  dc exec app npm run watch
+ 3703  dc-restart
+ 3704  docker-compose run --rm app bash
+ 3705  dc-restart
+ 3706  script/i18n/shotgun_pt.rb
+ 3707  dc exec app npm run dev
+ 3708  docker-compose exec app bash
+ 3709  dc-restart
+ 3710  script/i18n/shotgun_pt.rb
+ 3711  dc-restart
+ 3712  dc exec app npm run dev
+ 3713  docker-compose exec app bash
+ 3714  docker-compose run --rm app bash
+ 3715  dc-restart
+ 3716  dc-refresh
+ 3717  dc exec app npm run dev
+ 3718  dc exec app npm run watch
+ 3719  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'https://localhost:3001/user/login'
+ 3720  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/user/login'
+ 3721  /Applications/RV64.app/Contents/MacOS/py-interp /Users/dimanal/rv/webview.py 'http://localhost:3001/invite/VdNLu_O3KnVJJ4iruKPQcA'
+ 3722  docker-compose run --rm app bash
+ 3723  dc-refresh
+ 3724  dc exec app npm run dev
+ 3725  dc exec app npm run watch
+ 3726  docker-compose run --rm app bash
+ 3727  dc-refresh
+ 3728  docker-compose run --rm app bash
+ 3729  dc-restart
+ 3730  dc exec app npm run dev
+ 3731  dc exec app npm run watch
+ 3732  docker-compose run --rm app bash
+ 3733  git revert 2f431d3db8177d94b949c519bc28e4b33f1ab31e
+ 3734  git push origin ticket/SG-10630_department_entity
+ 3735  dc-refresh
+ 3736  dc exec app npm run dev
+ 3737  dc exec app npm run watch
+ 3738  dc-refresh
+ 3739  docker-compose exec app bash
+ 3740  docker-compose run --rm app bash
+ 3741  git checkout origin/master -- config/hostname
+ 3742  git checkout origin/master -- config/memcached.yml
+ 3743  dc exec app npm run dev
+ 3744  dc exec app npm run watch
+ 3745  git checkout origin/master  -- db/migrate
+ 3746  git checkout origin/master  -- db/schema.sql
+ 3747  git checkout origin/master  -- test/fixtures/fixtures.sql
+ 3748  docker-compose run --rm app bash
+ 3749  dc exec app npm run dev
+ 3750  dc exec app npm run watch
+ 3751  dc up app
+ 3752  dc exec app npm run dev
+ 3753  dc exec app npm run watch
+ 3754  dc-refresh
+ 3755  dc exec app npm run dev
+ 3756  dc exec app npm run watch
+ 3757  dc-refresh
+ 3758  dc exec app npm run dev
+ 3759  dc exec app npm run watch
+ 3760  dc-refresh
+ 3761  dc exec app npm run dev
+ 3762  dc exec app npm run watch
+ 3763  docker-compose run --rm app bash
+ 3764  dc-refresh
+ 3765  exit
+ 3766  dc exec app npm run dev
+ 3767  dc exec app npm run watch
+ 3768  dc exec app npm run dev
+ 3769  dc exec app npm run watch
+ 3770  dc exec app npm run dev
+ 3771  dc-restart
+ 3772  dc exec app npm run dev
+ 3773  dc-restart
+ 3774  dc exec app npm run dev
+ 3775  docker-compose exec app bash
+ 3776  docker-compose run --rm app bash
+ 3777  dc-refresh
+ 3778  dc exec app npm run dev
+ 3779  dc exec app npm run watch
+ 3780  dc up app
+ 3781  dc exec app npm run dev
+ 3782  dc exec app npm run watch
+ 3783  docker-compose run --rm app bash
+ 3784  dc-refresh
+ 3785  dc exec app npm run dev
+ 3786  dc exec app npm run watch
+ 3787  dc-refresh
+ 3788  docker-compose exec app bash
+ 3789  docker-compose run --rm app bash
+ 3790  dc exec app npm run watch
+ 3791  dc exec app npm run dev
+ 3792  dc-refresh
+ 3793  dc exec app npm run dev
+ 3794  dc exec app npm run watch
+ 3795  dc exec app npm run dev
+ 3796  dc-refresh
+ 3797  dc exec app npm run dev
+ 3798  dc exec app npm run watch
+ 3799  dc-refresh
+ 3800  dc exec app npm run watch
+ 3801  dc exec app npm run dev
+ 3802  docker-compose run --rm app bash
+ 3803  bin/update_sgds.py
+ 3804  dc exec app npm run dev
+ 3805  dc exec app npm run watch
+ 3806  bin/update_sgds.py
+ 3807  dc exec app npm run dev
+ 3808  dc exec app npm run watch
+ 3809  docker-compose run --rm app bash
+ 3810  dc exec app npm run dev
+ 3811  dc exec app npm run watch
+ 3812  dc exec app npm run dev
+ 3813  dc exec app npm run watch
+ 3814  dc exec app npm run dev
+ 3815  dc-refresh
+ 3816  dc exec app npm run dev
+ 3817  dc exec app npm run watch
+ 3818  dc-refresh
+ 3819  dc exec app npm run dev
+ 3820  dc exec app npm run watch
+ 3821  dc exec app npm run dev
+ 3822  bin/update_sgds.py
+ 3823  script/make_icon_image_map.py
+ 3824  dc-refresh
+ 3825  dc exec app npm run dev
+ 3826  dc exec app npm run watch
+ 3827  dc exec app npm run dev
+ 3828  dc exec app npm run watch
+ 3829  dc exec app npm run dev
+ 3830  dc-refresh
+ 3831  dc exec app npm run dev
+ 3832  dc exec app npm run watch
+ 3833  dc exec app npm run dev
+ 3834  dc-refresh
+ 3835  dc exec app npm run dev
+ 3836  dc exec app npm run watch
+ 3837  dc-refresh
+ 3838  dc exec app npm run dev
+ 3839  dc exec app npm run watch
+ 3840  docker-compose run --rm app bash
+ 3841  docker-compose exec app bash
+ 3842  dc exec app npm run dev
+ 3843  docker-compose run --rm app bash
+ 3844  dc exec app npm run watch
+ 3845  dc-refresh
+ 3846  dc exec app npm run dev
+ 3847  dc exec app npm run watch
+ 3848  git revert e4d08307e0eecff3ff88fcc6844e2274105e4cc6
+ 3849  git push origin ticket/SG-10540_better_login_error_messages 
+ 3850  ruby -v
+ 3851  rails
+ 3852  ls
+ 3853  mkdir rails_react
+ 3854  cd rails_react
+ 3855  postgres createuser lenny -s
+ 3856  psql
+ 3857  postgres psql
+ 3858  postgres --help
+ 3859  brew services start postgresql
+ 3860  postgres psql
+ 3861  psql
+ 3862  postgres -v
+ 3863  postgres -V
+ 3864  psql postgres
+ 3865  CREATE DATABASE sample;
+ 3866  psql postgres
+ 3867  psql postgres -U lenny;
+ 3868  psql postgres
+ 3869  psql lenny
+ 3870  psql postgres -u lenny
+ 3871  psql postgres -U lenny
+ 3872  /usr/local/Cellar/postgresql/11.1_1/bin/createuser -s postgres
+ 3873  psql -U postgres -h localhost
+ 3874  psql -U postgres
+ 3875  psql -U postgres -h localhost
+ 3876  /usr/local/Cellar/postgresql/11.1_1/bin/createuser -s postgres
+ 3877  brew services stop postgresql
+ 3878  ls
+ 3879  rails new reactapp
+ 3880  psql -U postgres
+ 3881  initdb /usr/local/var/postgres
+ 3882  rm -rf /usr/local/var/postgres
+ 3883  initdb /usr/local/var/postgres
+ 3884  /usr/local/opt/postgres/bin/createuser -s postgre
+ 3885  /usr/local/Cellar/postgresql/11.1_1/bin/createuser -s postgres
+ 3886  brew services start postgresql
+ 3887  /usr/local/Cellar/postgresql/11.1_1/bin/createuser -s postgres
+ 3888  psql postgres
+ 3889  postgres -i
+ 3890  /usr/local/Cellar/postgresql/11.1_1/bin/createuser -s dimanal
+ 3891  psql postgres
+ 3892  sudo -u postgres psql postgres
+ 3893  psql postgres
+ 3894  ls
+ 3895  rm -rf reactapp
+ 3896  rails new reactapp -d postgresql
+ 3897  cd reactapp
+ 3898  psql postgres
+ 3899  rake db:create
+ 3900  psql postgres -U lenny
+ 3901  psql postgres
+ 3902  rake db:create
+ 3903  rails server
+ 3904  exit
+ 3905  rails server -p 4000
+ 3906  rails generate model Item name:string description:text
+ 3907  rake db:migrate
+ 3908  cd ..
+ 3909  rm -rf reactapp
+ 3910  rails -v
+ 3911  rvm
+ 3912  rvm install rails-2.3.4
+ 3913  dc-refresh
+ 3914  rails -v
+ 3915  ls
+ 3916  rails _2.3.4_ new reactapp -d postgresql
+ 3917  ruby -v
+ 3918  rails -v
+ 3919  gem install rails -v 2.3.4
+ 3920  rails -v
+ 3921  rails _2.3.4_ new reactapp -d postgresql
+ 3922  dc exec app
+ 3923  docker-compose exec app bash
+ 3924  gem install rails -v 2.3.8
+ 3925  rails _2.3.8_ new reactapp -d postgresql
+ 3926  gem install rails
+ 3927  rails -v
+ 3928  rails new haha
+ 3929  rails -h
+ 3930  rails -v
+ 3931  rails new myapp
+ 3932  rails -h
+ 3933  rails myapp
+ 3934  gem install rails
+ 3935  dc exec app npm run watch
+ 3936  dc exec app npm run dev
+ 3937  rails -v
+ 3938  rails new reactapp -d postgresql
+ 3939  ls
+ 3940  cd reactapp
+ 3941  psql postgres
+ 3942  rake db:create
+ 3943  cd reactapp
+ 3944  rake db:create
+ 3945  ls
+ 3946  rails server -p 4000
+ 3947  cd reactapp
+ 3948  rails g model Item name:string description:text
+ 3949  rake db:migrate
+ 3950* exit
+ 3951  ls
+ 3952  rm -rf reactapp
+ 3953  rails new react_app -d postgresql
+ 3954  cd react_app
+ 3955  rake db:create
+ 3956  rails g scaffold Item name:string description:text
+ 3957  rake db:migrate
+ 3958* rails s
+ 3959* rails s -p 4000
+ 3960* cd ..
+ 3961* ls
+ 3962* cd react_app
+ 3963* rails s -p 4000
+ 3964  npm init -y
+ 3965  git add .
+ 3966  git commit -m "1_Scaffold"
+ 3967  git checkout -b 1_Scaffold
+ 3968  git remote add origin git@github.com:lenmorld/react_rails.git
+ 3969  git push -u origin 1_Scaffold 
+ 3970  git checkout -b 2_Static_HTML
+ 3971  git add .
+ 3972  git commit -m "setup basic routes and HTML views"
+ 3973  git push origin 2_Static_HTML 
+ 3974* cd react_app
+ 3975* npm install
+ 3976* webpack
+ 3977* npm run dev
+ 3978* webpack
+ 3979* npm run dev
+ 3980* rails s -p 3000
+ 3981* rails s -p 4000
+ 3982* npm run dev
+ 3983  git checkout -b 3_React
+ 3984  git add *.erb
+ 3985  git add react.html.erb
+ 3986  git add react_app/config/environments/production.rb
+ 3987  git add config/environments/production.rb
+ 3988  git commit -m "serve PUBLIC folder"
+ 3989  git add package.json
+ 3990  git add package-lock.json
+ 3991  git add webpack.config.js
+ 3992  git commit -m "webpack setup"
+ 3993  git add public
+ 3994  git add .
+ 3995  git commit -m "serve webpack-bundled files to erb"
+ 3996  git push origin 3_React 
+ 3997  git status]
+ 3998  git status
+ 3999  git add .
+ 4000  git commit -m "doc"
+ 4001  git push origin 3_React 
+ 4002  eval $(ssh-agent)
+ 4003  ssh-add
+ 4004  git add .
+ 4005  git commit -m "some renaming of react component tree"
+ 4006  curl http://localhost:4000/items
+ 4007  git checkout -b 4_Rails_API
+ 4008  git add .
+ 4009  git commit -m "simple items.json fetch"
+ 4010  git push origin 4_Rails_API 
+ 4011  git add .
+ 4012  git commit -m "custom route"
+ 4013  git push origin 4_Rails_API 
+ 4014  git checkout master
+ 4015  git merge 4_Rails_API 
+ 4016  git push origin master 
