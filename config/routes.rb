@@ -6,5 +6,12 @@ Rails.application.routes.draw do
 
   get '/react', to: 'pages#react'
 
+  # CustomController::speak
+  # get '/customize', controller: 'custom', action: 'speak'
+  # SAME WITH
+  get '/customize', to: 'custom#speak'
+
+  get '/showitems', to: 'custom#showitems'
+
   # root 'home#index'
 end

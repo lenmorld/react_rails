@@ -14,7 +14,8 @@ class App extends React.Component {
 
 	componentDidMount() {
         // items_controller.rb
-		axios.get(`/items.json`)
+		// axios.get(`/items.json`)
+		axios.get(`/showitems`)
 			.then((res) => {
                 console.log(res);
                 // debugger;

@@ -61,6 +61,13 @@ class ItemsController < ApplicationController
     end
   end
 
+  def customize
+    respond_to do |format|
+        format.html { @items }
+        format.json { render json: json_format(@items) }
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_item
