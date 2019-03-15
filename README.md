@@ -15,6 +15,11 @@
 - webpack.config.json: nothing fancy just can't use path like in Node
 - attaching webpacked `bundle.js` in `react.rhtml.erb`
 
+TODO: try later: Rails Asset Pipeline
+> The asset pipeline provides a framework to concatenate and minify or compress JavaScript and CSS assets. 
+> https://guides.rubyonrails.org/asset_pipeline.html
+
+# 4_React_with_RAILS_API
 
 # README
 
