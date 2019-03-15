@@ -7,7 +7,13 @@
 # 2_serve static HTML
 
 - http://davidpots.com/rails/tutorial/development/2013/03/19/rails-basics-setting-up-a-homepage.html
-- 
+  
+# 3_React
+
+- NOTE: not using asset pipeline, but just serving public/
+- `production.rb` : `config.public_file_server.enabled = true`
+- webpack.config.json: nothing fancy just can't use path like in Node
+- attaching webpacked `bundle.js` in `react.rhtml.erb`
 
 
 # README
